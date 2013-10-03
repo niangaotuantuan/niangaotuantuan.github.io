@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://yanran.li
+author: 年糕
+pygments: true
+paginate: 21
