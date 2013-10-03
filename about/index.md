@@ -12,4 +12,4 @@ My research interests include Computational Linguistics, Sentiment Analysis, Soc
 
 email: yanranli.summer#gmail      
 weibo: [@summerrlee](http://weibo.com/u/2099958484)      
-github : [@niangaotuantuan](https://github.com/niangaotuantuan)      
+github: [@niangaotuantuan](https://github.com/niangaotuantuan)      
