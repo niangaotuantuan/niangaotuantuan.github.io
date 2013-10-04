@@ -4,7 +4,8 @@ title: Loading Data in R
 categories:
 - R
 tags:
-- data, R
+- data
+- R
 ---
 
 There are several types of problems one may meet when loading data in R. I solved some of them and taken down the notes below.
