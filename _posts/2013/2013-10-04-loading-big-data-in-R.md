@@ -16,16 +16,16 @@ Just start with different implementations:
 
 * load **csv** file and using **ff** package (Rtools)
 	
-	> bigdata <- read.csv.ffdf(file = ”bigdata.csv”, first.rows=5000, colClasses = NA)
+		bigdata <- read.csv.ffdf(file = ”bigdata.csv”, first.rows=5000, colClasses = NA)
 	
 	*Notice* that ff package should be in Rtools on Windows.
 * using **sqldf()** from **SQLite** 
 	
 	this is a method from [StackOverflow](http://stackoverflow.com/a/1820610/1849063): using sqldf() to import the data into SQLite as a staging area, and then sucking it from SQLite into R
 
-	library(sqldf)
-	f <- file("bigdf.csv")
-	system.time(bigdf <- sqldf("select * from f", dbname = tempfile(), file.format = list(header = T, row.names = F)))
+		library(sqldf)
+		f <- file("bigdf.csv")
+		system.time(bigdf <- sqldf("select * from f", dbname = tempfile(), file.format = list(header = T, row.names = F)))
 
 * magic **data.table** and **fread**
 	
@@ -39,7 +39,7 @@ Just start with different implementations:
 
 	This option takes a vector whose length is equal to the number of columns in year table. Specifying this option instead of using the default can make ‘read.table’ run MUCH faster, often twice as fast. In order to use this option, you have to know the of each column in your data frame. - See more at [hear](http://simplystatistics.tumblr.com/post/11142408176/r-workshop-reading-in-large-data-frames#sthash.IpNe4GfP.dpuf).
 
-	read.table("test.csv",header=TRUE,sep=",",quote="",  
+		read.table("test.csv",header=TRUE,sep=",",quote="",  
                           stringsAsFactors=FALSE,comment.char="",nrows=n,                   
                           colClasses=c("integer","integer","numeric",                        
                                        "character","numeric","integer"))
@@ -48,7 +48,7 @@ Just start with different implementations:
 
 	Also you can read in only a portion of your file, to get a feel of the dataset.
 
-	data_first_100 <- read.table("file", header=T, sep="\t", stringsAsFactors=F, nrows=100)
+		data_first_100 <- read.table("file", header=T, sep="\t", stringsAsFactors=F, nrows=100)
 
 * in summary
 
