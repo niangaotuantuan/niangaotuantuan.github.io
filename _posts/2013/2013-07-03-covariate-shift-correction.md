@@ -2,9 +2,10 @@
 layout: post
 title: Covariate Shift Correction
 categories:
-- R
-tags:
 - statistics
+tags:
+- DSP
+- CTR
 - covariate shift
 ---
 
