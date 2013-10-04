@@ -26,9 +26,11 @@ L0应该就是SRM，结构风险最小化。据说可以用来筛掉指数级别
 
 L1也是NP-hard问题（本质因为可以和L0对等），是个菱形，最初用于所谓的compressed sensing。
 
+
 (2) $$ \min_{w} 1/n \sum_{i=1}^{n}l(y,f_{w}(x))+\lambda \left | w \right |_{1} $$
 
 L2是个球形，保持旋转不变性。
+
 
 (3) $$ \min_{w} 1/n \sum_{i=1}^{n}l(y,f_{w}(x))+\lambda \left | w \right |_{2} $$
 
