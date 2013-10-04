@@ -4,10 +4,12 @@ layout: page
 comments: yes
 ---
   
-卢克进, 08年毕业于南京理工大学计算机学院.      
-熟练使用常见的计算机语言.      
-目前从事Mac,iOS开发相关工作.      
+**Yanran Li**  
 
-个人邮箱:kejinlu@gmail.com      
-新浪微博: [http://weibo.com/kejinlu](http://weibo.com/kejinlu)      
-github : [https://github.com/kejinlu](https://github.com/kejinlu)      
+I am a Bachelor candidate in the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University.      
+I work with [Associate Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/) and do some research at Microsoft as **Applied Researcher and Developer**.      
+My research interests include Computational Linguistics, Sentiment Analysis, Social Network Analysis and Applied Machine Learning.
+
+email: yanranli.summer#gmail      
+weibo: [@summerrlee](http://weibo.com/u/2099958484)      
+github: [@niangaotuantuan](https://github.com/niangaotuantuan)      

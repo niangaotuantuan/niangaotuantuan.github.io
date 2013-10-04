@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
 url: http://yanran.li
-author: 年糕
+author: Yanran
 pygments: true
 paginate: 21
