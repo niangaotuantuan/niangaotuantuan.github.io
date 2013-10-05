@@ -55,7 +55,7 @@ d.	除了通过**直接**地改变概率分布来加入先验的方法，这几�
 
 ##  从 MDK-LDA (b) 到 MDK-LDA 到 GK-LDA：
 
-* 主要总结 Zhiyuan Chen 的两篇工作，之前提过的 MDK-LDA 7和 GK-LDA 1。
+* 主要总结 Zhiyuan Chen 的两篇工作，之前提过的 MDK-LDA 和 GK-LDA。
 
 * MDK-LDA 是 multi-domain knowledge 的缩写，从思想上来看是一种 Transfer Learning 的想法，prior from other domain can help topic model in new domain.
 
