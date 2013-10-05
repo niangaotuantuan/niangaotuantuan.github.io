@@ -30,11 +30,9 @@ b.	在 Rethinking LDA 里一文[^1]中，结合两种先验与两种不同的先
 
 他们的实验发现其中 AS 的方法可以更高地提高 LDA 对于文本建模的能力。
 
-c.	不难发现，文档-主题-词汇，至少文档和词汇，是两个粒度，也可以看成两个层次，这样就可以转化成两层图或者多层图的问题。进而可以迁移到万小军老师在文本摘要中做的一些总结，图排列问题等等，manifold-ranking process  就是考虑了 relations among sentence 和 relations between topic + sentence，也就是 intra-doc 和 inter-doc。所以需要思考的问题是，在我预定的场景下，有几种层次？几种粒度？每种层次分别代表的是什么？ 
+c.  典型的打破“对称”文档~主题分布先验（AS）的几个model，有很好理解的 Twitter-LDA，也有 Behavior-LDA。同时，supervised-LDA 也可以看做一个非结构化的打破先验的方式，变形后有 SeededLDA（在两个层次的先验都通过设计加入了不对称信息）。
 
-d.  典型的打破“对称”文档~主题分布先验（AS)的几个model，有很好理解的 Twitter-LDA，也有 Behavior-LDA。同时，supervised-LDA 也可以看做一个非结构化的打破先验的方式，变形后有 SeededLDA（在两个层次的先验都通过设计加入了不对称信息）。
-
-e.	除了通过**直接**地改变概率分布来加入先验的方法，这几年来开始有越来越多的研究者想将结构化的先验知识加入 LDA 。这种结构化的先验，不再是简单的 prior distribution，更可以倾向于称为“knowledge”。这样的研究之所以盛行，一方面是长期以来的结构化知识库已有很多（且因为还要继续建立知识图谱等，结构化仍将是未来的趋势），另一方面形式语言（逻辑语言）的表示的研究一直都没有停止。这种结构化的引入 knowledge 的方法，本质也是通过打破先验设定的 symmetric Dirichlet Distribution。下文将重点总结这方面的工作。
+d.	除了通过**直接**地改变概率分布来加入先验的方法，这几年来开始有越来越多的研究者想将结构化的先验知识加入 LDA 。这种结构化的先验，不再是简单的 prior distribution，更可以倾向于称为“knowledge”。这样的研究之所以盛行，一方面是长期以来的结构化知识库已有很多（且因为还要继续建立知识图谱等，结构化仍将是未来的趋势），另一方面形式语言（逻辑语言）的表示的研究一直都没有停止。这种结构化的引入 knowledge 的方法，本质也是通过打破先验设定的 symmetric Dirichlet Distribution。下文将重点总结这方面的工作。
 
 ##  Domain-dependent Model：
 * CIKM’13 里，Zhiyuan Chen（也在 Bing Liu那里）的一篇 Discovering Coherent Topics[^3] 里将 incorporating knowledge 的研究分成了 domain-dependent 的和 domain-independent：前者是 expert 知道（普通人不一定熟悉，需要 expert 来参与编辑）的知识而且有知识领域限制，后者是各领域通用的一些知识。
