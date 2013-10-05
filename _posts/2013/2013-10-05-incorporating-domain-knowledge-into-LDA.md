@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Peppy Papers]Incorpating Domain Knowledge into LDA
+title: Incorpating Domain Knowledge into LDA
 categories:
 - Peppy Papers
 tags:
