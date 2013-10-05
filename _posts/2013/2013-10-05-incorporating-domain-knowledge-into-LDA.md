@@ -61,7 +61,7 @@ d.	除了通过**直接**地改变概率分布来加入先验的方法，这几�
 
 * 所谓的 multi-domain 可以通过 **s-set** 表示，比如 “light” has 2 s-set {light, heavy, weight} 和 {light, bright, luminanee}，表示出了 light 的两个词义。那么这个工作就是去 leverage 这个 s-sets。
 
-* 他们在 IJCAI’13[^8] 里主要分析了 之前的 domain-knowledge 会遇到的两个大问题，MDK-LDA 解决了其中一个 adverse effect 的问题，而 GK-LDA 两个都解决了（还有一个是错误先验知识带来的问题）。MDK-LDA 解决的主要在 LDA 问题里，如何使得一些少见的词但是确实是同一个 set 里的词的低频不会影响 topic modeling 的学习（不仅仅用 TF-IDF 消除影响），那么他们认为 *the words in an s-set share a similar semantic meaning in the model should redistribute the probability masses over words in the s-set to ensure that they have similar probability under the same topic*. 这个思想使得他们在 MDK-LDA(basic) 之上加入了 GPU [^9]：像抽出小球再放回同颜色的球的思想一样，去改变同一个 s-set 里的 word 的dist.
+* 他们在 IJCAI’13 的那篇里[^8] 主要分析了 之前的 domain-knowledge 会遇到的两个大问题，MDK-LDA 解决了其中一个 adverse effect 的问题，而 GK-LDA 两个都解决了（还有一个是错误先验知识带来的问题）。MDK-LDA 解决的主要在 LDA 问题里，如何使得一些少见的词但是确实是同一个 set 里的词的低频不会影响 topic modeling 的学习（不仅仅用 TF-IDF 消除影响），那么他们认为 *the words in an s-set share a similar semantic meaning in the model should redistribute the probability masses over words in the s-set to ensure that they have similar probability under the same topic*. 这个思想使得他们在 MDK-LDA(basic) 之上加入了 GPU [^9]：像抽出小球再放回同颜色的球的思想一样，去改变同一个 s-set 里的 word 的dist.
 
 * 在 MDK-LDA 之上，解决第二个问题的就是 GK-LDA，也就是在 CIKM’13 里的那篇[^3]。MDK-LDA 没法避免当我们的先验 s-set 是错误的（这也是其他许多 domain-dependent model 的问题，必须保证我们的先验知识都是正确的）对 performance 的影响。 GK-LDA 加入了一个 word correlation matrix 的计算 和 加入一个 threshold，减少了 wrong LR-set 的的影响。
 
@@ -71,7 +71,7 @@ d.	除了通过**直接**地改变概率分布来加入先验的方法，这几�
 
 * Transfer Learning 和 Active Learning、Online Learning 等等都有关系。这部分内容还没有系统学习过，之前一篇[文章](http://yanran.li/2013/07/covariate-shift-correction/)也有提到这里的一个小坑。
 
-* GPU[^9]，是 Generalized Polya Urn 的简称。搞懂 LDA 必须先学习的模型。将这个过程generalized, 可以推向Polya Urn's Process。Polya Urn's Model 是比较直观的理解 Dirichlet Process 的一种解释模型。模型中抽出球再放回就是对当前的多项分布进行抽样（同时不改变该分布），又放回一个同样的球就是依当前多项分布产生新的多项分布。假设从$$ \mathcal Dir(\alpha, K) $$中抽样，那么新产生的多项分布共有 K 个，其概率质量与当前多项分布成比例。K 个新产生的多项分布的加权平均与原多项分布是同分布的。而在之前的 CIKM'13[^3] 论文中就是通过改变每次放回的“球”（LR-set 里同一个 set 的词）的“颜色”和数量来改变 prior knowledge 的。这种思想感觉还是很赞的。
+* GPU[^9]，是 Generalized Polya Urn 的简称。搞懂 LDA 必须先学习的模型。将这个过程generalized, 可以推向Polya Urn's Process。Polya Urn's Model 是比较直观的理解 Dirichlet Process 的一种解释模型。模型中抽出球再放回就是对当前的多项分布进行抽样（同时不改变该分布），又放回一个同样的球就是依当前多项分布产生新的多项分布。假设从$$ \mathcal Dir(\alpha, K) $$中抽样，那么新产生的多项分布共有 K 个，其概率质量与当前多项分布成比例。K 个新产生的多项分布的加权平均与原多项分布是同分布的。而在之前的 CIKM'13 论文[^3]中就是通过改变每次放回的“球”（LR-set 里同一个 set 的词）的“颜色”和数量来改变 prior knowledge 的。这种思想感觉还是很赞的。
 
 
 ## Reference
