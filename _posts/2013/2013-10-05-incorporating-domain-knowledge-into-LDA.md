@@ -37,14 +37,14 @@ d.	除了通过**直接**地改变概率分布来加入先验的方法，这几�
 ##  Domain-dependent Model：
 * CIKM’13 里，Zhiyuan Chen（也在 Bing Liu那里）的一篇 Discovering Coherent Topics[^3] 里将 incorporating knowledge 的研究分成了 domain-dependent 的和 domain-independent：前者是 expert 知道（普通人不一定熟悉，需要 expert 来参与编辑）的知识而且有知识领域限制，后者是各领域通用的一些知识。
 
-* 同样是上述文章，提到了[^2, 4, 5, 6, 7] 的论文都是 domain-dependent knowledge-based 的。
+* 同样是上述文章，提到了[^2],[^4],[^5],[^6],[^7] 的论文都是 domain-dependent knowledge-based 的。
 
 * 其中，Dirichlet Forest[^2] 和 Jerry Zhu 的 First-Order Logic[^4] 的形式化加入 domain-knowledge 的方法还是比较有代表性。前者是将领域内一定会一起出现（两个词的出现概率都很大或者都很小）的词和一定不能一起出现的词分别表示为 Must-Link 和 Cannot-Link，然后表示成树中的结点和结点之间的连接关系。但这个 Link 关系是可传递的，所以会导致“错误”的先验知识加入（CIKM'13 中提到了这点）。         
 
 
 ##  Domain-independent Model：
 
-* 按照 Zhiyuan Chen 的说法，他们在 CIKM’13 里提出的 GK-LDA [^3]应该是第一个 domain-independent model。所以这个部分只谈他们的那篇论文（GK-LDA 是 General Knowledge 的缩写，即 domain-independent 的 knowledge）。
+* 按照 Zhiyuan Chen 的说法，他们在 CIKM’13 里提出的 GK-LDA[^3] 应该是第一个 domain-independent model。所以这个部分只谈他们的那篇论文（GK-LDA 是 General Knowledge 的缩写，即 domain-independent 的 knowledge）。
 	
 * 在这篇论文里，他们的假设是，*there is a vast amount of available in online dictionaries or other resources that can be exploited in a model to generate more coherent topic*. 而通过 extract，就可以把这样的 lexical knowledge 提取成 a general knowledge base.
 
