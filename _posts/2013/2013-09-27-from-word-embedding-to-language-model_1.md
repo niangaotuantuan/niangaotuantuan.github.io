@@ -26,11 +26,14 @@ Also, some techniques are used to improve BP algorithm. For instance, gentic alg
 In contrast to the "atomic" or "localist" representations employed in traditional cognitive science, a distributed representation is one in which **"each entity is represented by a pattern of activity distributed over many computing elements, and each computing element is involved in representing many different entities."**
 
 Yoshua Bengio gave a vivid analogy between "local" and "distributed" in his given talk, *Learning to Represent Semantics*.
+
 ![](http://i.imgur.com/b8sEQFd.png)
 
 ## Deep Learning Motivation for Semantics
 
-In Language Model, given a probability for a longer word sequence, $$ P(w_{1},...,w_{l})=\prod_{t}P(w_{t}|w{t-1},...,w_{t-n+1}) $$, we then predict P(next word } context). And in traditional n-gram Language Model, we use counts and smoothing to calculate the conditional probability. 
+In Language Model, given a probability for a longer word sequence, 
+$$ P(w_{1},...,w_{l})=\prod_{t}P(w_{t}|w{t-1},...,w_{t-n+1}) $$, 
+we then predict P(next word } context). And in traditional n-gram Language Model, we use counts and smoothing to calculate the conditional probability. 
 
 However, the traditional n-gram LM fails with *Curse of dimensionality*: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training.
 
@@ -55,7 +58,8 @@ Delalleau 2011, Braverman 2011) proves that deep architectures are more expressi
 
 ## Neural Network Language Model
 
-Training the word embedding and the neural network at the same time, there are two types of system: Neural network language model and the others. The former type consists of (1)input: context; (2)output: distribution of next word, |V| nodes. And the latter type (1)input: entire sequence; (2)output: score, 1 node.
+Training the word embedding and the neural network at the same time, there are two types of system: Neural network language model and the others. The former type consists of (1)input: context; (2)output: distribution of next word, $$\vert V\vert$$ nodes. And the latter type (1)input: entire sequence; (2)output: score, 1 node.
+
 
 ### Probabilistic Neural Language Model
 
