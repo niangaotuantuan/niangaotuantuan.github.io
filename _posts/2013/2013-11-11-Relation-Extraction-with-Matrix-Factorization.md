@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Relation Extraction with Matrix Factorization and Universal Schemas
+title: Relation Extraction with Matrix Factorization
 categories:
 - Natural Language Processing
 tags:
