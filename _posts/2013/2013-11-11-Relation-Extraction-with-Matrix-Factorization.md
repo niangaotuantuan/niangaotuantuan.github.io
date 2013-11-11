@@ -11,6 +11,8 @@ tags:
 
 This post is about the NAACL'13 Accepted Paper, **Relation Extraction with Matrix Factorization and Universal Schemas**. The talk is available on [techtalks](http://techtalks.tv/talks/relation-extraction-with-matrix-factorization-and-universal-schemas/58435/).
 
+And then present some basic knowledge of **Matrix Factorization**. 
+
 ## Abstract
 
 The paper studies techniques for inferring a model of entities and relations capable of performing basic types of semantic inference (e.g., predicting if a specific relation holds for a given pair of entities). The models exploit different types of embeddings of entities and relations.  
@@ -80,10 +82,31 @@ The main solution is as follows:
 	$$ {L}'(\theta)=\sum_{(i,j)\in Z}{L}'_{ij}(W_{i*},H_{*j}) $$,    
 	$$ {\hat{L}}'(\theta,z)=N{L}'_{i_{z}j_{z}}(W_{i_{z}*},H_{*j_{z}}) $$,
   
-	where $$ N = \left | Z \right |$$
+	where $$ N = |Z} $$
 
 * SGD epoch
 	* Pick a random entry $$ z \in Z $$
 	* Compute approximate gradient $$ {\hat{L}}'(\theta,z) $$
 	* Update parameters $$ \theta_{n+1}=\theta_{n}-\epsilon_{n}{\hat{L}}'(\theta,z) $$
 	* Repeat $$N$$ times
+
+## SVM V.S. FM
+
+**FM** is short for [**Factorization Machine**](http://www.libfm.org/). Indeed, it can be interpreted as **Factorization** Methods and Support Vector **Machine**. It is firstly published by Steffen Rendle. 
+
+Factorization machines (FM) are a generic approach that allows to mimic most factorization models by feature engineering. This way, factorization machines combine the generality of feature engineering with the superiority of factorization models in estimating interactions between categorical variables of large domain. libFM is a software implementation for factorization machines that features stochastic gradient descent (SGD) and alternating least squares (ALS) optimization as well as Bayesian inference using Markov Chain Monte Carlo (MCMC).
+
+![](http://i.imgur.com/Kc7q9Pl.png)
+ 
+in SVM mode, $$ y(x)=w\cdot x+b=w_{u}+w_{i}+...+b=\sum w_{i}x_{i}+b $$, but original SVM fails with 2 main problems using here: *Real Value V.S. Classification*, and *Sparsity*.
+
+in Factorization Machine mode, this is solved as: $$ y(x)=\sum w_{i}x_{i}+\sum\sum(v_{i}\cdot v_{j})x_{i}x_{j} +b $$. The second part in the formula is **Factorization**, where the transformation from original SVM to FM lies.
+
+![](http://i.imgur.com/bgOUxWh.png)
+![](http://i.imgur.com/eHhxEsb.png)
+
+## FM V.S. MF
+
+- FM: $$ y(x)=\sum w_{i}x_{i}+\sum\sum(v_{i}\cdot v_{j})x_{i}x_{j} +b $$
+- MF: $$ y(x)=w_{u}+w_{i}+v_{u}\cdot v_{i} + b $$
+
