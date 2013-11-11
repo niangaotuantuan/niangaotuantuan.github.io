@@ -78,7 +78,8 @@ This structure is Bengio's groundbreaking work.
 It has a linear projection layer, a nonlinear hidden layer and a softmax output layer. The sparse history h is projected into some continuous low-dimensional space, where similar histories get clustered. Moreover, the model is more robust: less parameters have to be estimated from the training data.
 
 But the model has limitation below:
-- Complexity: $$ (n × m) × h + h × \vert 𝑉\vert
+
+- Complexity: $$ (n × m) × h + h × \vert V\vert $$
 - New words fails
 - Long term context ignored
 - Lack priori knowledge, such as POS, semantic information (WordNet)
