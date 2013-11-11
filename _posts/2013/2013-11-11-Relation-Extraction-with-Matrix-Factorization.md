@@ -62,3 +62,25 @@ It has been a general machine learning problem formulated as:
 ### Find best model
 
 $$ \arg\min_{W,H}\sum_{(i,j)\in Z}L_{i,j}(W_{i*},H_{*j}) $$
+
+## Stochastic Gradient Descent for Matrix Factorization
+
+Among the various algorithmic techniques available, the following are more
+popular: **Alternating Least Squares (ALS)**， **Non-Negative Matrix Factorization** and **Stochastic Gradient Descent (SGD)**. Here I only presents SGD for MF.
+
+**SDG** is a well know technique which tends to compute direction of steepest descent and then takes a step in that direction. Among the variants include:
+
+a. Partitioned SGD: distribute without using stratification and run independently and in parallel on partitions
+
+b. Pipelined SGD: based on ‘delayed update’ scheme
+
+c. Decentralized SGD: computation in decentralized and distributed fashion
+
+The main solution is as follows:
+
+* Set $$ \theta = (W,H) $$ and use
+  $$ L(\theta)=\sum_{(i,j)\in Z}L_{ij}(W_{i*},H_{*j}) $$
+  $$ {L}'(\theta)=\sum_{(i,j)\in Z}{L}'_{ij}(W_{i*},H_{*j}) $$
+  $$ {\hat{L}}'(\theta)=N{L}'_{i_{z}j_{z}}(W_{i_{z}*},H_{*j_{z}}) $$
+  where $$ N = \left | Z \right | $$
+* 
