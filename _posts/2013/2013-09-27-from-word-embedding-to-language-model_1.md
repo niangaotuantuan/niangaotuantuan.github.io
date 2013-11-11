@@ -33,7 +33,7 @@ Yoshua Bengio gave a vivid analogy between "local" and "distributed" in his give
 
 In Language Model, given a probability for a longer word sequence, 
 $$ P(w_{1},...,w_{l})=\prod_{t}P(w_{t}|w{t-1},...,w_{t-n+1}) $$, 
-we then predict P(next word } context). And in traditional n-gram Language Model, we use counts and smoothing to calculate the conditional probability. 
+we then predict P(next word|context). And in traditional n-gram Language Model, we use counts and smoothing to calculate the conditional probability. 
 
 However, the traditional n-gram LM fails with *Curse of dimensionality*: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training.
 
