@@ -76,13 +76,14 @@ The main solution is as follows:
 
 * Set $$ \theta = (W,H) $$ and use
   
-	$$ L(\theta)=\sum_{(i,j)\in Z}L_{ij}(W_{i*},H_{*j}) $$
-	$$ {L}'(\theta)=\sum_{(i,j)\in Z}{L}'_{ij}(W_{i*},H_{*j}) $$
-	$$ {\hat{L,z}}'(\theta)=N{L}'_{i_{z}j_{z}}(W_{i_{z}*},H_{*j_{z}}) $$,
+	$$ L(\theta)=\sum_{(i,j)\in Z}L_{ij}(W_{i*},H_{*j}) $$,    
+	$$ {L}'(\theta)=\sum_{(i,j)\in Z}{L}'_{ij}(W_{i*},H_{*j}) $$,    
+	$$ {\hat{L}}'(\theta,z)=N{L}'_{i_{z}j_{z}}(W_{i_{z}*},H_{*j_{z}}) $$,
   
-	where $$ N = \left | Z \right | $$
+	where $$ N = \left | Z \right |$$
+
 * SGD epoch
-	* 1. Pick a random entry $$ z \in Z $$
-	* 2. Compute approximate gradient $$ {\hat{L,z}}'(\theta) $$
-	* 3. Update parameters $$ \theta_{n+1}=\theta_{n}-\epsilon_{n}{\hat{L,z}}'(\theta) $$
-	* 4. Repeat $$N$$ times
+	* Pick a random entry $$ z \in Z $$
+	* Compute approximate gradient $$ {\hat{L}}'(\theta,z) $$
+	* Update parameters $$ \theta_{n+1}=\theta_{n}-\epsilon_{n}{\hat{L}}'(\theta,z) $$
+	* Repeat $$N$$ times
