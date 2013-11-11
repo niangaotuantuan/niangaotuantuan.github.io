@@ -82,7 +82,7 @@ The main solution is as follows:
 	$$ {L}'(\theta)=\sum_{(i,j)\in Z}{L}'_{ij}(W_{i*},H_{*j}) $$,    
 	$$ {\hat{L}}'(\theta,z)=N{L}'_{i_{z}j_{z}}(W_{i_{z}*},H_{*j_{z}}) $$,
   
-	where $$ N = |Z} $$
+	where $$ N = |Z| $$
 
 * SGD epoch
 	* Pick a random entry $$ z \in Z $$
