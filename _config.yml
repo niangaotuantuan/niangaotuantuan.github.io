@@ -1,17 +1,6 @@
-permalink: /:year/:month/:title
-
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
+markdown: kramdown
+permalink: /:year/:month/:title/
+url: http://yanran.li
+author: Yanran
 pygments: true
-
-site_url : http://yanran.li
-title: Yanran's Attic
-tagline: Take pains, be patient.
-author:
-  name: Yanran Li
-  email: yanranli.summer@gmail.com
-
-github: niangaotuantuan
-disqus: niangaotuantuan
-feedburner: hazy/RnxD
-analytics: UA-32154858-2
+paginate: 21
