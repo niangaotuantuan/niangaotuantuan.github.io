@@ -14,6 +14,14 @@ function frame1() {
   });
 }
 
+<<<<<<< HEAD
 $(document).ready(function(){
   frame1();
 });
+=======
+
+
+$(document).ready(function(){
+  frame1();
+});
+>>>>>>> FETCH_HEAD
