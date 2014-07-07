@@ -28,7 +28,7 @@
   float: left;
 }
 
-body.ctfBackground {
+body.home {
 	margin:0;
 	padding:0;
 	background: #000 url('/images/background.jpg') center top fixed no-repeat;
