@@ -12,7 +12,7 @@ padding:0;
 }
 body.home div{border-bottom:0;background:none}
 #holder{margin:0 auto;text-align:right;height:400px}
-#welcome{padding-top:350px;text-align:right;border:0}
+#welcome{padding-top:200px;text-align:right;border:0}
 #welcome p{margin:0;line-height:1}
 #welcome span{display:inline-block}
 #welcome .intro{
