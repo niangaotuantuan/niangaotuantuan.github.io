@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Recent years, there has been emerging research on knowledge-based model and method. Researchers have tried in various ways to express/embed/structure the knowledge and then incorporating them into some existing models, among which is LDA (Latent Dirichlet Allocation). 
+Recent years, there has been emerging research on knowledge-based models and methods. Researchers have tried in various ways to express/embed/structure the knowledge and then incorporating them into some existing models, among which is LDA (Latent Dirichlet Allocation). 
 
 For further detailed about LDA, please investigate through [Blei el al., 2003].  The basic idea and foundation of LDA is handling **word co-occurrence** pattern to discover the latent semantic meaning. The simple model has limited resolution to deeper latent sementics and thus the variations of LDA are bursting. One focus to expand LDA is how to incorporating more **prior knowledge** into it.
 
