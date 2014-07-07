@@ -14,16 +14,6 @@ function frame1() {
   });
 }
 
-function frame2() {
-  $("#hero-2").click(function(){
-    $(this).unbind("click");
-    $("#hero-2").addClass("flatten").one("webkitAnimationEnd oanimationend msAnimationEnd animationend",function(e){
-    });
-  });
-}
-
-
 $(document).ready(function(){
   frame1();
-  frame2();
 });
