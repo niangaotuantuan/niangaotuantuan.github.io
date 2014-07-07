@@ -1,6 +1,11 @@
 markdown: kramdown
 permalink: /:year/:month/:title/
 url: http://yanran.li
-author: Yanran
+author: 
+  name: Yanran Li
+  email: yanranli.summer@gmail.com
+  
+github: niangaotuantuan
+
 pygments: true
 paginate: 21
