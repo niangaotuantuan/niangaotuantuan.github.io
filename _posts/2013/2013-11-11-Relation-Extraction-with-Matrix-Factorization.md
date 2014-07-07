@@ -98,7 +98,7 @@ Factorization machines (FM) are a generic approach that allows to mimic most fac
  
 in SVM mode, $$ y(x)=w\cdot x+b=w_{u}+w_{i}+...+b=\sum w_{i}x_{i}+b $$, but original SVM fails with 2 main problems using here: *Real Value V.S. Classification*, and *Sparsity*.
 
-in Factorization Machine mode, this is solved as: $$ y(x)=\sum w_{i}x_{i}+\sum\sum(v_{i}\cdot v_{j})x_{i}x_{j} +b $$. The second part in the formula is **Factorization**, where the transformation from original SVM to FM lies.
+in Factorization Machine mode, it is solved as: $$ y(x)=\sum w_{i}x_{i}+\sum\sum(v_{i}\cdot v_{j})x_{i}x_{j} +b $$. The second part in the formula is **Factorization**, where the transformation from original SVM to FM lies.
 
 ![](http://i.imgur.com/bgOUxWh.png)
 ![](http://i.imgur.com/eHhxEsb.png)
