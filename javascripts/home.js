@@ -19,13 +19,6 @@ function frame2() {
     $(this).unbind("click");
     $("#hero-2").addClass("flatten").one("webkitAnimationEnd oanimationend msAnimationEnd animationend",function(e){
       $("#intro-2").hide();
-      $(this).hide(0,function(){
-        $("#hero-3").show();
-        $("#intro-3").show();
-        setTimeout(function(){
-          $("#hero-3").removeClass("padding");
-        },500);
-      });
     });
   });
 }
@@ -34,5 +27,4 @@ function frame2() {
 $(document).ready(function(){
   frame1();
   frame2();
-  frame3();
 });
