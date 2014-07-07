@@ -30,19 +30,6 @@ function frame2() {
   });
 }
 
-function frame3() {
-  $("#hero-3").mouseenter(function(){
-    $(this).addClass("padding");
-  });
-  $("#hero-3").mouseleave(function(){
-    $(this).removeClass("padding");
-  });
-  $("#hero-3 .hint3 abbr").simpletip({
-    content: "<p>SQR() function is used in many programming languages, it usually returns the square of a number.</p><p>So, we have SQR(H) = H x H</p>",
-    persistent: true,
-    position: ["140","0"]
-  });
-}
 
 $(document).ready(function(){
   frame1();
