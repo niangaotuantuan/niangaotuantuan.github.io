@@ -11,7 +11,7 @@ padding:0;
 	background-size: cover;
 }
 body.home div{border-bottom:0;background:none}
-#holder{margin:0 auto;text-align:right;height:400px;padding-right:100px}
+#holder{margin:0 auto;text-align:right;height:300px;padding-right:50px}
 #welcome{padding-top:200px;text-align:right;border:0}
 #welcome p{margin:0;line-height:1}
 #welcome span{display:inline-block}
