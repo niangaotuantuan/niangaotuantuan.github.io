@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Vim Plugins</title>
+    
+    <meta name="description" content="some useful vim plugins" />
+    <meta name="author" content="Flynn Wang" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="550">
+
+    <div id="start" class="step slide" data-x="0">
+        <img id="me-icon" src="http://www.gravatar.com/avatar/8f7aecc437d41c59065cc7de2a3a3628.png" alt="" />
+        <q>Let's talk about <b>Vim</b></q>
+        <p>Flynn Wang</p>
+        <p>2012-8-7</p>
+    </div>
+
+    <div class="step slide" data-x="1000">
+        <q>We are not going to talk about.</q>
+        <ul>
+            <li>open &amp; save</li>
+            <li>different modes</li>
+            <li>movement</li>
+            <li>search</li>
+            <li>replacement</li>
+            <li>...</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="2000">
+        <q>So, what I am going to talk about?</q>
+        <p>plugins</p>
+        <p>yes, only plugins</p>
+    </div>
+
+    <div class="step slide" data-x="3000">
+        <q>Let's start from...</q>
+        <p>.vim/</p>
+    </div>
+
+    <div class="step slide" data-x="4000">
+        <q>For thousands of years...</q>
+        <p>.vim/</p>
+        <ul style="list-style: none">
+            <li>autoload/</li>
+            <li>colors/</li>
+            <li>ftplugin/</li>
+            <li>indent/</li>
+            <li>lang/</li>
+            <li>plugin/</li>
+            <li>syntax/</li>
+            <li>.../</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="5000">
+        <q>Then, we I realise...</q>
+        <p>I need a plugin</p>
+        <p>a plugin of plugins</p>
+    </div>
+
+    <div class="step slide" data-x="6000">
+        <q>And, I found <a href="https://github.com/tpope/vim-pathogen">pathogen.vim</a></q>
+        <p>.vimrc</p>
+        <code>call pathogen#infect()</code>
+        <p>and this is all we need...</p>
+    </div>
+
+    <div class="step slide" data-x="7000">
+        <q>But, plugin needs to be updated</q>
+        <p><strong>pathogen.vim</strong> doesn't support that out of box.</p>
+    </div>
+
+    <div class="step slide" data-x="8000">
+        <q>Then, we I meet <a href="https://github.com/gmarik/vundle/">Vundle</a></q>
+        <p>.vimrc</p>
+        <code>
+            set rtp+=~/.vim/bundle/vundle/<br>
+            call vundle#rc()
+        </code>
+    </div>
+
+    <div class="step slide" data-x="9000">
+        <q>I want this, I want that</q>
+        <p>.vimrc</p>
+        <code>
+            Bundle 'gmarik/vundle'<br>
+            Bundle 'kien/ctrlp.vim'<br>
+            Bundle 'mileszs/ack.vim'<br>
+            Bundle "garbas/vim-snipmate"<br>
+            Bundle 'tpope/vim-fugitive' <br>
+            ...
+        </code>
+    </div>
+
+    <div class="step slide" data-x="10000">
+        <q>Bang! The magic</q>
+        <code>
+            :BundleInstall       " install<br>
+            <br>
+            :BundleInstall<strong>! </strong>      " update<br>
+        </code>
+    </div>
+
+    <div class="step slide" data-x="11000">
+        <q>Meet my friends!</q>
+    </div>
+
+    <div class="step slide" data-x="12000">
+        <q><a href="http://kien.github.com/ctrlp.vim/">ctrlp.vim</a></q>
+        <p>Full path fuzzy file, buffer, mru, tag, ... finder for Vim.</p>
+        <ul>
+            <li><a>ctrl+p</a>: trigger ctrlp.vim</li>
+            <li><a>enter</a>: open</li>
+            <li><a>ctrl+t</a>: open in new tab</li>
+            <li><a>f5</a>: purge cache</li>
+            <li><a>ctrl+y</a>: create new file</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="13000">
+        <q><a href="https://github.com/mileszs/ack.vim/">ack.vim</a></q>
+        <p>ack is a tool like grep, optimized for programmers</p>
+        <ul>
+            <li><a>:Ack xxx</a>: search whatever you want</li>
+            <li><a>o, go</a>: open/preview</li>
+            <li><a>t, T</a>: open with new tab</li>
+            <li><a>q</a>: close</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="14000">
+        <q><a href="https://github.com/garbas/vim-snipmate/">vim-snipmate.vim</a></q>
+        <p>concise vim script that implements some of TextMate's snippets features in Vim</p>
+        <ul>
+            <li><a>tab</a>: just tab and enjoy the fun.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="15000">
+        <q><a href="https://github.com/tpope/vim-fugitive">vim-fugitive</a></q>
+        <p>a Git wrapper so awesome, it should be illegal</p>
+        <ul>
+            <li>basic commands: :Gwrite, :Gread, :Gremove, :Gmove</li>
+            <li>view status: :Gstatus, :Gdiff</li>
+            <li>dive into history: :Gedit, :Glog, :Ggrep</li>
+            <li><strong>three way merge</strong>: Gdiff, :diffget //2(//3)</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="16000">
+        <q>Want some more fun?</q>
+        <code>
+            :help 42
+        </code>
+    </div>
+
+    <div class="step slide" data-x="17000">
+        <q>What is the meaning of life,<br> the universe and everything?  <br>*42*</q>
+    </div>
+
+    <div class="step slide" data-x="18000">
+        <q>Thank you</q>
+        <p>want more plugins?</p>
+        <ul>
+            <li>fork <a href="https://github.com/flynnwang/vimrc">mine</a></li>
+            <li>or, run <a href="https://github.com/gmarik/vundle/">:BundleSearch xxx</a></li>
+            <li>or, checkout <a href="https://github.com/zaiste/vimified">vimified</a></li>
+        </ul>
+    </div>
+</div>
+<script src="/assets/js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+---
+layout: page
+title: All Tags I Used
+---
+<div class="tag_container span10">
+<ul class="tag_box inline">
+  {% assign tags_list = site.tags %}  
+  {% for tag in tags_list %} 
+  <li>
+    <div class="tag" article-tag="{{tag[0]}}">
+        <div class="arrow"></div>
+        <div class="co">
+            <span class="name">{{ tag[0] }} <span>{{ tag[1].size }}</span>
+        </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+
+<div id="post-container" >
+{% for post in site.posts %}
+<div class="item" data-id="id-{{ forloop.index}}" article-tags="{{ post.tags | join: ',' }}">
+    <a class="ribbon date small" href="{{ BASE_PATH }}{{ post.url }}">
+        <div class="top ribbon-piece">{{ post.date | date: '%b' }}</div>
+      <div class="bottom ribbon-piece">{{ post.date | date: '%d' }}</div>
+    </a>
+    <h3 class="entry-title">
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <div class="entry-summary">
+        {{ post.description }}
+    </div>
+</div>
+{% endfor %}
+</div>
+
+
+<script type="text/javascript" src="/assets/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.quicksand.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() { 
+  var $container = $('#post-container')
+  var $articles = $container.clone();
+  $('.tag_box .tag').click(function(e) {
+    e.preventDefault()
+
+    var tag = $(this).attr('article-tag')
+    console.log(tag + " selected");
+    
+    var $filtred = $articles.find('.item').filter(function() {
+      var $this = $(this)
+      return $this.attr('article-tags').split(',').indexOf(tag) != -1
+    });
+
+      $container.quicksand($filtred, {
+          duration: 800,
+          easing: 'easeInOutQuad'
+        });
+  })
+});
+</script>
+
+
