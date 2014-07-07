@@ -18,7 +18,6 @@ function frame2() {
   $("#hero-2").click(function(){
     $(this).unbind("click");
     $("#hero-2").addClass("flatten").one("webkitAnimationEnd oanimationend msAnimationEnd animationend",function(e){
-      $("#intro-2").hide();
     });
   });
 }
