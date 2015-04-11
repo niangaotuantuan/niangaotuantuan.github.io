@@ -9,7 +9,21 @@ image:
 
 
 lets test.
-{% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}
+<ul class="entry-meta inline-list">
+{% assign categories_list = site.categories %}  
+  {% if categories_list.first[0] == null %}
+    {% for cat in categories_list %} 
+        <li><a href="#{{ cat }}" class="category">{{ cat }} <span>{{ site.categories[cat].size }}</span></a></li>
+    {% endfor %}
+  {% else %}
+    {% for cate in categories_list %}
+        <li><a href="#{{ cate[0] }}" class="category">{{ cat[0] }} <span>{{ cat[1].size }}</span></a></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>
+
+{% for cat in site.categories %}  {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}
 {% for cat in site.categories %}
 {{ cat[0] }}
 {% for post in cat[1] %}
