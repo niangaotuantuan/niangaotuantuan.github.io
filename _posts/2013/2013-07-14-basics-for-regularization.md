@@ -6,7 +6,7 @@ comments: true
 share: true
 
 category:
-- Machine Learning
+- MachineLearning
 tags:
 - sparse
 - regularization

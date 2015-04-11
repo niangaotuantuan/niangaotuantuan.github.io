@@ -7,7 +7,7 @@ share: true
 
 
 category:
-- natural language processing
+- naturallanguageprocessing
 tags:
 - word embedding
 - deep learning

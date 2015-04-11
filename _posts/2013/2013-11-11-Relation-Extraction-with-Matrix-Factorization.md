@@ -8,7 +8,7 @@ share: true
 
 
 category:
-- Natural-Language-Processing
+- NaturalLanguageProcessing
 tags:
 - matrix factorization
 - relation extraction

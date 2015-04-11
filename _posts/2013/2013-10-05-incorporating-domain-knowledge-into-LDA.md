@@ -7,7 +7,7 @@ share: true
 
 
 category:
-- Peppy Papers
+- PeppyPapers
 tags:
 - paper
 - domain knowledge
