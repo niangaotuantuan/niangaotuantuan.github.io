@@ -5,6 +5,7 @@ disqus_shortname: yanranli
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
 # PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
 url:              http://yanran.li
+permalink: /:year/:month/:day/:title/
 
 # Owner/author information
 owner:
