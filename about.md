@@ -4,7 +4,7 @@ permalink: /about/
 title: About me
 tags: [about]
 image:
-  feature: background.jpg
+  feature: bg_about.jpg
 ---
 
 I am **Yanran Li**, a Research Assistant now at PolyU. 
