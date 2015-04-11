@@ -30,8 +30,11 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 *Scaled the highest peak. And flew for the very first time. Morning starts, and changes everything.*    
 *It's a clean slate. A fresh start.*   
 *So come dreamers, and trailblazers, champions. Come builders.*       
-*It's morning, wake up, and be amazing.   
+*It's morning, wake up, and be amazing.*  
    
+
+
+         
 
 
 <!-- 
