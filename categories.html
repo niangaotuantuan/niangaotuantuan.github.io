@@ -7,7 +7,10 @@ image:
   feature: background.jpg
 ---
 
-{% for post in site.posts | where: 'category','R' %}
+{% capture myposts %}
+{{ site.posts | category: "R" }}
+{% endcapture %}
+{% for post in myposts %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
