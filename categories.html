@@ -13,11 +13,11 @@ lets test.
 {% assign categories_list = site.categories %}  
   {% if categories_list.first[0] == null %}
     {% for cat in categories_list %} 
-        <li><a href="#{{ cat }}" class="category">{{ cat }} <span>{{ site.categories[cat].size }}</span></a></li>
+        <li><a href="#{{ cat }}" class="cat">{{ cat }} <span>{{ site.categories[cat].size }}</span></a></li>
     {% endfor %}
   {% else %}
     {% for cate in categories_list %}
-        <li><a href="#{{ cate[0] }}" class="category">{{ cat[0] }} <span>{{ cat[1].size }}</span></a></li>
+        <li><a href="#{{ cate[0] }}" class="cat">{{ cat[0] }} <span>{{ cat[1].size }}</span></a></li>
     {% endfor %}
   {% endif %}
 {% assign tags_list = nil %}
@@ -30,6 +30,23 @@ lets test.
 {{ post.date | date:"%Y-%m-%d" }} {{ post.title }}
 {% endfor %} {% endfor %}
 
+{% for cat in site.categories %} 
+  <article>
+  <h2 id="{{ cat[0] }}">{{ cat[0] }}</h2>
+    <ul>
+    {% assign pages_list = cat[1] %}  
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+    </ul>
+  </article><!-- /.hentry -->
+{% endfor %}
 
 {% for post in site.posts %}
     {% if post.categories contains "PeppyPapers" %}
