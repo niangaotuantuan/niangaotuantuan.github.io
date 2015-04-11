@@ -8,7 +8,7 @@ image:
 ---
 
 
-    
+Here goes my friends pages. They're intellegent and lovely guys who motivate me when I'm feeling low.
        
 [Tongfei Chan's **Blog**](http://tongfei.me)
 
