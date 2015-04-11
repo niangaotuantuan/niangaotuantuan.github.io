@@ -6,7 +6,7 @@ comments: true
 share: true
 
 
-categories:
+category:
 - natural language processing
 tags:
 - word embedding

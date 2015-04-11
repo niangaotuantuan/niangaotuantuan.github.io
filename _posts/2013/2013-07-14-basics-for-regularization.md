@@ -5,7 +5,7 @@ title: Basics for Regularization
 comments: true
 share: true
 
-categories:
+category:
 - Machine Learning
 tags:
 - sparse

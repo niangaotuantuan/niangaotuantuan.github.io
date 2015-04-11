@@ -5,7 +5,7 @@ title: Loading Big Data in R
 comments: true
 share: true
 
-categories:
+category:
 - R
 tags:
 - data

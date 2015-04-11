@@ -6,7 +6,7 @@ title: Covariate Shift Correction
 comments: true
 share: true
 
-categories:
+category:
 - statistics
 tags:
 - DSP

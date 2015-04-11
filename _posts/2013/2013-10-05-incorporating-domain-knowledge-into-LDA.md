@@ -6,7 +6,7 @@ comments: true
 share: true
 
 
-categories:
+category:
 - Peppy Papers
 tags:
 - paper

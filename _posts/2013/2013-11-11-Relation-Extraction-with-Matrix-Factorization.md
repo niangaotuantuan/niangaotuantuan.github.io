@@ -7,7 +7,7 @@ comments: true
 share: true
 
 
-categories:
+category:
 - Natural Language Processing
 tags:
 - matrix factorization
