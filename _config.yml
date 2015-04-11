@@ -34,10 +34,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Research
-    url: /research
   - title: GuestBook
     url: /guestbook
+  - title: Friends
+    url: /friends
   - title: NLP links
     url: https://web.cs.dal.ca/~vlado/nlp/
     external: true
