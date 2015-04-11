@@ -35,6 +35,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: PaperNotes
+    url: /categories/peppypapers
   - title: GuestBook
     url: /guestbook
   - title: Friends
