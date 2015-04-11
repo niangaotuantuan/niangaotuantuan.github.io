@@ -23,13 +23,6 @@ lets test.
 {% assign tags_list = nil %}
 </ul>
 
-{% for cat in site.categories %}  {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}
-{% for cat in site.categories %}
-{{ cat[0] }}
-{% for post in cat[1] %}
-{{ post.date | date:"%Y-%m-%d" }} {{ post.title }}
-{% endfor %} {% endfor %}
-
 {% for cat in site.categories %} 
   <article>
   <h2 id="{{ cat[0] }}">{{ cat[0] }}</h2>
@@ -46,33 +39,4 @@ lets test.
     {% assign group = nil %}
     </ul>
   </article><!-- /.hentry -->
-{% endfor %}
-
-{% for post in site.posts %}
-    {% if post.categories contains "PeppyPapers" %}
-    say sth.
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-  	{% if forloop.first %}
-    <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
-    {% endif %}
-
-        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-
-    {% if forloop.last %}
-      </ul>
-    </article>
-    {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article>
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
-        {% endif %}
-    {% endif %}
-    {% endif %}
 {% endfor %}
