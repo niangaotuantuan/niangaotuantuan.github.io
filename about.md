@@ -21,12 +21,17 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 
 
 
-> *It's morning. And morning is amazing. It's when we charge into the future. When we blasted off for the moon.*
-> *Scaled the highest peak. And flew for the very first time. Morning starts, and changes everything.*
-> *It's a clean slate. A fresh start.*
-> *So come dreamers, and trailblazers, champions. Come builders.*
-> *It's morning, wake up, and be amazing. *
 
+       
+
+                 
+
+> *It's morning. And morning is amazing. It's when we charge into the future. When we blasted off for the moon.*    
+*Scaled the highest peak. And flew for the very first time. Morning starts, and changes everything.*    
+*It's a clean slate. A fresh start.*   
+*So come dreamers, and trailblazers, champions. Come builders.*       
+*It's morning, wake up, and be amazing.   
+   
 
 
 <!-- 
