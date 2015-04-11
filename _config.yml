@@ -37,7 +37,7 @@ links:
   - title: Research
     url: /research
   - title: GuestBook
-    url: /software
+    url: /guestbook
   - title: NLP links
     url: https://web.cs.dal.ca/~vlado/nlp/
     external: true
