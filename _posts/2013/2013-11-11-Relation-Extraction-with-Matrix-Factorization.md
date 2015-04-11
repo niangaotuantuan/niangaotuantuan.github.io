@@ -1,6 +1,12 @@
 ---
 layout: post
 title: Relation Extraction with Matrix Factorization
+
+
+comments: true
+share: true
+
+
 categories:
 - Natural Language Processing
 tags:

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: From Word Embedding to Language Model(1)
+
+comments: true
+share: true
+
+
 categories:
 - natural language processing
 tags:

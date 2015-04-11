@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Loading Data in R
+comments: true
+share: true
 categories:
 - R
 tags:

@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Covariate Shift Correction
+
+
+comments: true
+share: true
+
 categories:
 - statistics
 tags:

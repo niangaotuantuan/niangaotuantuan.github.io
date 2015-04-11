@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Basic for Regularization
+
+comments: true
+share: true
+
 categories:
 - Machine Learning
 tags:
