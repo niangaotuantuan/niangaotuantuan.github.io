@@ -45,7 +45,7 @@ While Batch gradient descent computes the gradient using the whole dataset, **St
 
 2. Single SGD works well **better than** batch gradient descent *when the error manifolds that have lots of local maxima/minima*.
 
-##cons
+###cons
 
 2. Sometimes, with the computational advantage, it should perform many more iterations of SGD, making many more steps than conventional batch gradient descent. 
 

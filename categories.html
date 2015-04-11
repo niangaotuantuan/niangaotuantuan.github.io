@@ -9,7 +9,12 @@ image:
 
 
 lets test.
-{\% for category in site.categories %} <li><a href=”/categories/{{ category | first }}/” title=”view all posts”>{{ category | first }} {{ category | last | size }}</a> </li> {\% endfor %} </ul> </pre>
+{% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}
+{% for cat in site.categories %}
+{{ cat[0] }}
+{% for post in cat[1] %}
+{{ post.date | date:"%Y-%m-%d" }} {{ post.title }}
+{% endfor %} {% endfor %}
 
 
 {% for post in site.posts %}
