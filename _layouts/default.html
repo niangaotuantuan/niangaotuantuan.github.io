@@ -1,100 +1,44 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="description" content="Hello, welcome to my homepage. My name is Yanran Li. You can also call me Summer, :P">
-        
-        
-    <title>{{ page.title }} | {{ site.author }}</title>
-    <link href="favicon.png" rel="icon">
-    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    
-    <link rel="stylesheet" href="/media/css/highlight.css">
-    <link href='/media/webfonts/ss-social.css' rel='stylesheet'>
-    <link href='/media/webfonts/ss-standard.css' rel='stylesheet'>
-    <link href="/media/css/screen.css" rel="stylesheet">
-	
-	<link rel="stylesheet" href="/public/js/prettify/prettify.css">
-	<script src="/public/js/prettify/prettify.js"></script>
-	<script type="text/javascript">
-	  $(function(){
-		$("pre").addClass("prettyprint linenums");
-		prettyPrint();
-	  });
-	</script>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
 
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-	
-	
-	<!-- mathjax config similar to math.stackexchange -->
-	<script type="text/x-mathjax-config">
-	  MathJax.Hub.Config({
-		tex2jax: {
-		  inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-		  processEscapes: true
-		}
-	  });
-	</script>
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
 
-	<script type="text/x-mathjax-config">
-		MathJax.Hub.Config({
-		  tex2jax: {
-			skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-		  }
-		});
-	</script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
 
-	<script type="text/x-mathjax-config">
-		MathJax.Hub.Queue(function() {
-			var all = MathJax.Hub.getAllJax(), i;
-			for(i=0; i < all.length; i += 1) {
-				all[i].SourceElement().parentNode.className += ' has-jax';
-			}
-		});
-	</script>
+    </head>
+    <body>
 
-	<script type="text/javascript"
-	   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-	</script>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <a class="extra" href="/">home</a>
+          </div>
 
+          {{ content }}
 
-  </head>
-  <body>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-        <div class="buttons">
-          <a href="/" class="ss-icon" title="Go to homepage">home</a>
-          <a href="/categories" class="ss-icon" title="Category" >list</a>
-          <a href="/tags" class="ss-icon" title="Tag Cloud" >tags</a>
-          <a href="/guestbook" class="ss-icon" title="Guest Book" >talk</a>
-          <a href="/about" class="ss-icon" title="About" >user</a>
-          <a href="/feed" class="ss-icon" title="Subscribe by RSS" >rss</a>
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Your Name<br />
+                What You Are<br />
+                you@example.com
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
+                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+              </p>
+            </div>
+          </div>
         </div>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <hr>
-        <article class="content">
-        {{ content }}
-        </article>
-      </div>
 
-    <footer>
-        <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://yanran.li/">Yanran</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S %Z"}}</span></small></p>
-    </footer>
-
-    </div>
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-12936433-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
+    </body>
 </html>
