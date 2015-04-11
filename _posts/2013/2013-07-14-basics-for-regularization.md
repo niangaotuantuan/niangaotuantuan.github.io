@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic for Regularization
+title: Basics for Regularization
 
 comments: true
 share: true
