@@ -15,7 +15,7 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 
 As I didn't want my about page to be a direct result of boredom, I concluded that the best way I can think of to describe myself is to list all of the things that make me happy. So in no particular order, here it goes: 
 
-**Books (mostly Literatures). Arts(I also paint). Family. Traveling. A good Sunday sunshine. Hand lettering. Coffee. Dancing (I used to dance). Gardening (I like to be my career). The smell of fresh flowers.**
+**Books (mostly Literatures). Arts (I also paint). Family. Traveling. A good Sunday sunshine. Hand lettering. Coffee. Dancing (I used to dance). Gardening (I'd like to be my career). The smell of fresh flowers.**
 
 
 
