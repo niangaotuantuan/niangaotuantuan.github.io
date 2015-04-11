@@ -1,8 +1,7 @@
 ---
 layout: page
-title: GuestBook
 comments: yes
-permalink: /about/
+permalink: /guestbook/
 title: GuestBook
 tags: [guestbook]
 image:
