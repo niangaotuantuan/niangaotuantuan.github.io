@@ -5,7 +5,7 @@ permalink: /guestbook/
 title: GuestBook
 tags: [guestbook]
 image:
-  feature: guestbg2.jpg
+  feature: bg_guest.jpg
 ---
 
 Drop some words :P
