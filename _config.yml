@@ -1,6 +1,58 @@
-markdown: kramdown
-permalink: /:year/:month/:title/
-url: http://yanran.li
-author: Yanran
-pygments: true
-paginate: 21
+title:            Yanran Li
+description:      "Natural Language Processing, Semantic Embedding, Machine learning, deep learning"
+disqus_shortname: Yanran
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://yanran.li
+
+# Owner/author information
+owner:
+  name:           Yanran Li
+  avatar:         avatar.jpg
+  bio:            "Research Assistant at PolyU"
+  email:          yanranli.summer@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         niangaotuantuan
+  stackexchange:  
+  linkedin:       233043238
+  instagram:      
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    
+  kaggle:         
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Research
+    url: /research
+  - title: GuestBook
+    url: /software
+  - title: NLP links
+    url: https://web.cs.dal.ca/~vlado/nlp/
+    external: true
+  - title: r/machinelearning
+    url: http://www.reddit.com/r/machinelearning
+    external: true
+  - title: Deep Learning G+
+    url: https://plus.google.com/communities/112866381580457264725
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Hong_Kong
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# Amount of posts to show on home page
+paginate: 10
