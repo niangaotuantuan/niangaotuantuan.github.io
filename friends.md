@@ -4,7 +4,7 @@ permalink: /friends/
 title: Friend Links
 tags: [friends]
 image:
-  feature: background.jpg
+  feature: gbbg.jpg
 ---
 
 [**Tongfei Chan (Blog)**](http://tongfei.me)
