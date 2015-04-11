@@ -7,6 +7,9 @@ image:
   feature: bg_friend.jpg
 ---
 
+
+    
+       
 [Tongfei Chan's **Blog**](http://tongfei.me)
 
 [VikingMew's **Blog**](http://blog.vikingmew.me/)
