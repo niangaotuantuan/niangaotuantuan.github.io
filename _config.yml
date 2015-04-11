@@ -36,7 +36,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: PaperNotes
-    url: /categories/peppypapers
+    url: /categories/#peppypapers
   - title: GuestBook
     url: /guestbook
   - title: Friends
