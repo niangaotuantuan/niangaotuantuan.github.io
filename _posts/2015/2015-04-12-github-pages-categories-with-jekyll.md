@@ -119,10 +119,7 @@ If you tried, you failed. It is because you cannot put a filter on a loop. You h
 `
 {% raw %}
 {{
-{% capture myposts %} { { site.posts where: 'category','This is one category' } } {% endcapture %}
-{% for post in myposts %}
-...
-{% endfor %}
+{% capture myposts %} { { site.posts where: 'category','This is one category' } } {% endcapture %} {% for post in myposts %} ... {% endfor %}
 }}
 {% endraw %}
 `
