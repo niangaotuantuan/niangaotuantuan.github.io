@@ -25,3 +25,5 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 [Xuening Zhu's **Blog**](http://www.xueningzhu.com/)
 
 [pluskid's **Free Mind**](http://freemind.pluskid.org/)
+
+[huangz's **Blog**](http://blog.huangz.me/index.html)
