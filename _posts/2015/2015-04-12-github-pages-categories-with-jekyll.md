@@ -5,9 +5,9 @@ title: Github Pages Categories with Jekyll
 comments: true
 share: true
 
-
 category:
 - misc
+
 tags:
 - jekyll
 - programming
@@ -103,6 +103,7 @@ So, the further question is, are *category* and *categories* really same when on
 
 But problems still show up when we want to archive the posts by a specific category. We may first try something like this:
 
+
 ```
 {% for post in site.categories.'This is one category' %}
 ```
@@ -120,4 +121,5 @@ If you tried, you failed. It is because you cannot put a filter on a loop. You h
 {% for post in myposts %}
 ...
 ```
+
 
