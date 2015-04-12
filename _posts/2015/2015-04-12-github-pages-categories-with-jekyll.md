@@ -104,20 +104,20 @@ So, the further question is, are *category* and *categories* really same when on
 But problems still show up when we want to archive the posts by a specific category. We may first try something like this:
 
 
-```
+`
 {% for post in site.categories.'This is one category' %}
-```
+`
 
 or this:
 
-```
+`
 {% for post in site.posts | where: 'category','This is one category' %}
-```
+`
 
 If you tried, you failed. It is because you cannot put a filter on a loop. You have to capture first, then loop:
 
 ```
-{% capture myposts %} {{ site.posts where: 'category','This is one category' %} {% endcapture %}
+{% capture myposts %} { { site.posts where: 'category','This is one category' %} {% endcapture %}
 {% for post in myposts %}
 ...
 ```
