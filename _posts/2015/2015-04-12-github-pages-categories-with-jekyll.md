@@ -105,7 +105,7 @@ But problems still show up when we want to archive the posts by a specific categ
 
 
 `
-{% for post in site.categories.'This is one category' %}
+{% for post in site.categories.'This is one category' %}...{% endfor %}
 `
 
 or this:
