@@ -132,6 +132,10 @@ a:visited { color: #a0a; }
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 .post ul, .post ol {
@@ -142,6 +146,10 @@ a:visited { color: #a0a; }
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break:break-all;
+  word-wrap: break-word;
 }
 
 .post pre code {
