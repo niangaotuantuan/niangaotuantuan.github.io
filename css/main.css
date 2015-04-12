@@ -134,7 +134,8 @@ a:visited { color: #a0a; }
   padding: 0 .4em;
   white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
+  overflow: auto;
+  word-wrap: normal;
   word-wrap: break-word;
 }
 
@@ -148,8 +149,9 @@ a:visited { color: #a0a; }
   padding: 0 .2em;
   white-space: pre;
   white-space: pre-wrap;
-  word-break:break-all;
   word-wrap: break-word;
+  overflow: auto;
+  word-wrap: normal;
 }
 
 .post pre code {
