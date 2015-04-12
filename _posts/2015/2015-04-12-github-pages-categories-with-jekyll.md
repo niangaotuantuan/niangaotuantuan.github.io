@@ -117,8 +117,10 @@ or this:
 If you tried, you failed. It is because you cannot put a filter on a loop. You have to capture first, then loop:
 
 ```
+{% raw %}
 {% capture myposts %} { { site.posts where: 'category','This is one category' %} {% endcapture %}
 {% for post in myposts %}
+{% endraw %}
 ...
 ```
 
