@@ -26,6 +26,7 @@ When we want to name a category using multiple words (more than 1 word, contains
 
 
 ```
+{%raw%}  
 # _plugins/post.rb
 module Jekyll
 
@@ -58,7 +59,7 @@ module Jekyll
   end
 
 end
-
+{%endraw%}  
 ```
 
 **But, Github Pages just forbid any plugins**. Thus, it will work on your own server other than blogs on Github Pages. Therefore, I suggest no spaces in category names.  
@@ -105,20 +106,26 @@ But problems still show up when we want to archive the posts by a specific categ
 
 
 `
-{% for post in site.categories.'This is one category' %}...{% endfor %}
+{%raw%}   
+{% for post in site.categories.'This is one category' %}...{% endfor %}   
+{%endraw%}  
 `
 
 or this:
 
 `
-{% for post in site.posts | where: 'category','This is one category' %} ... {% endfor %}
+{% raw %}  
+{% for post in site.posts | where: 'category','This is one category' %} ... {% endfor %}   
+{% endraw %}  
 `
 
 If you tried, you failed. It is because you cannot put a filter on a loop. You have to capture first, then loop:
 
 ```
-{% capture myposts %} { { site.posts where: 'category','This is one category' } } {% endcapture %} 
-{% for post in myposts %} ... {% endfor %}
-```
+{%raw%}  
+{% capture myposts %} { { site.posts where: 'category','This is one category' } } {% endcapture %}    
+{% for post in myposts %} ... {% endfor %}   
+{%endraw%}
+```    
 
 
