@@ -22,45 +22,7 @@ There are three questions that you'll encounter using categories: (1) Multiple w
 
 ##Multiple word category name
 
-When we want to name a category using multiple words (more than 1 word, contains spaces), jekyll will defaulty generate a permalink with the form http://domain.com/category/year/month/title and result in urls with dashes. It is the case and not bugs. We cannot easily change the permalink settings for the way Jekyll generates urls for posts in the config form but this can be done with a plugin like this:
-
-
-```
-{%raw%}  
-# _plugins/post.rb
-module Jekyll
-
-  class Post
-
-    # override post method in order to return categories names as slug
-    # instead of strings
-    #
-    # An url for a post with category "category with space" will be in
-    # slugified form : /category-with-space
-    # instead of url encoded form : /category%20with%20space
-    #
-    # @see utils.slugify
-    def url_placeholders
-      {
-          :year        => date.strftime("%Y"),
-          :month       => date.strftime("%m"),
-          :day         => date.strftime("%d"),
-          :title       => slug,
-          :i_day       => date.strftime("%-d"),
-          :i_month     => date.strftime("%-m"),
-          :categories  => (categories || []).map { |c| Utils.slugify(c) }.join('/'),
-          :short_month => date.strftime("%b"),
-          :short_year  => date.strftime("%y"),
-          :y_day       => date.strftime("%j"),
-          :output_ext  => output_ext
-      }
-    end
-
-  end
-
-end
-{%endraw%}  
-```
+When we want to name a category using multiple words (more than 1 word, contains spaces), jekyll will defaulty generate a permalink with the form http://domain.com/category/year/month/title and result in urls with dashes. It is the case and not bugs. We cannot easily change the permalink settings for the way Jekyll generates urls for posts in the config form but this can be done with a plugin.
 
 **But, Github Pages just forbid any plugins**. Thus, it will work on your own server other than blogs on Github Pages. Therefore, I suggest no spaces in category names.  
 
@@ -105,11 +67,11 @@ So, the further question is, are *category* and *categories* really same when on
 But problems still show up when we want to archive the posts by a specific category. We may first try something like this:
 
 
-`
-{%raw%}   
-{% for post in site.categories.'This is one category' %}...{% endfor %}   
-{%endraw%}  
-`
+```  
+{{ "{% for post in site.categories.'This is one category' "}}%}  
+...  
+{{ "{% endfor "}}%}     
+```
 
 or this:
 
