@@ -75,19 +75,20 @@ But problems still show up when we want to archive the posts by a specific categ
 
 or this:
 
-`
-{% raw %}  
-{% for post in site.posts | where: 'category','This is one category' %} ... {% endfor %}   
-{% endraw %}  
-`
+```
+{{ "{% for post in site.posts | where: 'category','This is one category' "}}%}    
+...    
+{{ "{% endfor "}}%}       
+```
 
 If you tried, you failed. It is because you cannot put a filter on a loop. You have to capture first, then loop:
 
 ```
-{%raw%}  
-{% capture myposts %} { { site.posts where: 'category','This is one category' } } {% endcapture %}    
-{% for post in myposts %} ... {% endfor %}   
-{%endraw%}
+{{ "{% capture myposts "}}%} { { site.posts where: 'category','This is one category' } }       
+{{ "{% endcapture "}}%}         
+{{ "{% for post in myposts "}}%}     
+...        
+{{ "{% endfor "}}%}       
 ```    
 
 
