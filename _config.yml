@@ -60,5 +60,3 @@ markdown:    kramdown
 # Amount of posts to show on home page
 paginate: 10
 
-# tag was never closed bug
-excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
