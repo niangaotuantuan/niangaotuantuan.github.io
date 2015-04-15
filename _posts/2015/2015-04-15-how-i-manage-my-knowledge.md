@@ -74,7 +74,9 @@ pluskid 的这篇博文，可以解决大部分人对于知识整理的初级困
 
 最大的好处就是你可以更好地把知识和知识之间联系在一起。让我再用 [The Morning Paper 博客](http://blog.acolyer.org/2015/03/30/end-of-term-and-how-i-read-a-paper/)中博主提到的说法表达一下，当他读完一篇 paper 后他不会立刻去写总结，而是会消化一段时间：
 
-	I let the ideas in the paper swirl around in the back of my mind. Sometimes consciously, sometimes unconsciously - but this 'thinking time' definitely seems to help me. If I've read a paper on the train into work for example, I'll think aout it while walking from the station to the office (about 20 mins) - after which it will be relegated to my subconscious.
+>
+I let the ideas in the paper swirl around in the back of my mind. Sometimes consciously, sometimes unconsciously - but this 'thinking time' definitely seems to help me. If I've read a paper on the train into work for example, I'll think aout it while walking from the station to the office (about 20 mins) - after which it will be relegated to my subconscious.
+
 
 其实这段话中就是提到了潜意识。当我们长久地专注于一个问题时，我们的潜意识就会开始工作，甚至于睡觉的时候也会继续运转。这方面的内容也在刘未鹏的《暗时间》里有所讨论。
 
@@ -98,7 +100,9 @@ pluskid 的这篇博文，可以解决大部分人对于知识整理的初级困
 ###Excel
 这个其实我前阵子看纯银的[文章](http://www.jianshu.com/p/a9de8d4541a0)里提到的，他长期坚持的习惯有一个是统计数据。
 
-	第六是统计数据，我有一张大表，上百项数据，每个月手动统计一次均值填进去，大约花两三个小时。此事枯燥无趣，当然可以交出去，但我不乐意。统计这些数据的过程，也是我不断猜测，不断印证，不断分析数据的过程，增进我对数据的理解，以及由此衍生出来的新的想法，远远超过看着人家的统计表格，花5分钟时间吃顿快餐。
+>
+第六是统计数据，我有一张大表，上百项数据，每个月手动统计一次均值填进去，大约花两三个小时。此事枯燥无趣，当然可以交出去，但我不乐意。统计这些数据的过程，也是我不断猜测，不断印证，不断分析数据的过程，增进我对数据的理解，以及由此衍生出来的新的想法，远远超过看着人家的统计表格，花5分钟时间吃顿快餐。
+
 
 这是他的职业导致。但是其实每个行业都可能需要有一些这样的 trending 的知识要长期保存，自己选择自己需要的自己制作整理。也可以用来记录自己的一些进展数据。我觉得是必须的。
 
