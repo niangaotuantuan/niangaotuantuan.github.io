@@ -1,9 +1,12 @@
 ---
 layout: post
 title: 我是这样进行知识管理的
-
+image:
+  feature: knowledge-bg.jpg
+  
 comments: true
 share: true
+
 
 category:
 - life
