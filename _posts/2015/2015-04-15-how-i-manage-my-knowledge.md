@@ -2,7 +2,7 @@
 layout: post
 title: 我是这样进行知识管理的
 image:
-  feature: knowledge-bg.jpg
+  feature: knowledge_bg.jpg
   
 comments: true
 share: true
@@ -88,6 +88,7 @@ I let the ideas in the paper swirl around in the back of my mind. Sometimes cons
 ## 使用软件和平台
 
 这一部分中涉及到了原始知识和知识加工两步用到的软件和平台，只是我个人。
+
 ###新浪微博
 我用来收集学术信息、生活技能（烹饪）、文学信息，和最重要的一个，别人的感想。微博上有很多人非常愿意分享自己的思考，这些思考可能很多是关于自己职场的、或者关于自己对行业的见解，很难归类，但是对我而言却非常有启发。我自己是把这些贴上“insight”标签。
 
