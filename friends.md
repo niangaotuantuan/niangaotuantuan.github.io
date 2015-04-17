@@ -27,3 +27,5 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 [pluskid's **Free Mind**](http://freemind.pluskid.org/)
 
 [huangz's **Blog**](http://blog.huangz.me/index.html)
+
+[Azeril's **Microdust**](http://azeril.me/)
