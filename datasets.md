@@ -2,7 +2,7 @@
 layout: page
 permalink: /datasets/
 title: Data Sets
-tags: [friends]
+tags: [datsets]
 image:
   feature: bg_friend.jpg
 ---
