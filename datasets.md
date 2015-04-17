@@ -31,7 +31,7 @@ Here are some selected datasets commonly used in Machine Learning related tasks.
 **Douban Datasets**
 [download](http://pan.baidu.com/s/1bn92T7h)
 
-- pw: 
+- pw: fdmm
 - description: data from the paper *CTopicModel*
 
 
