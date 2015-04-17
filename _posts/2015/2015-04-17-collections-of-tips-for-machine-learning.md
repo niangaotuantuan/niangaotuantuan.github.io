@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collections of Tips for Machine Learning
-description:收集了一些我觉得真的有用实战机器学习的文章。比如如何调参，比如会遇到什么真实数据带来的问题，如何 debug，如何 speed-up。长期更新。
+description: 收集了一些我觉得真的有用实战机器学习的文章。比如如何调参，比如会遇到什么真实数据带来的问题，如何 debug，如何 speed-up。长期更新。
 
 comments: true
 share: true
