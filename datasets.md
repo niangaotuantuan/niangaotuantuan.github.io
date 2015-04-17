@@ -8,7 +8,7 @@ image:
 ---
 
 
-Here are some selected datasets commonly used in Machine Learning related tasks.
+Here are some selected datasets commonly used in Machine Learning related tasks, for further automatical machine learning framework.
 
 **Github Awesome Datasets**
 [download](https://github.com/caesar0301/awesome-public-datasets)
