@@ -7,7 +7,7 @@ comments: true
 share: true
 
 category:
-- naturallanguageprocessing
+- machinelearning
 
 tags:
 - machine learning
