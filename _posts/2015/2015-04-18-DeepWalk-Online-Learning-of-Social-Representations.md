@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DeepWalk: Online Learning of Social Representations
-description: DeepWalk 是一篇我个人非常喜欢的论文，不仅提出了一个想法，更展示了这个想法的可行性和可能空间。提出的想法是利用网络结构信息将用户表示为低维实值向量，学出来的表示是最重要的，因为有了表示就可以用来加在许多其他任务上。
+description: DeepWalk是一篇我个人非常喜欢的论文，不仅提出了一个想法，更展示了这个想法的可行性和可能空间。提出的想法是利用网络结构信息将用户表示为低维实值向量，学出来的表示是最重要的，因为有了表示就可以用来加在许多其他任务上。
 
 comments: true
 share: true
