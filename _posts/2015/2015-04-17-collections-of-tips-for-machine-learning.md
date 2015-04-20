@@ -36,6 +36,10 @@ deeplearning4j 的 googlegroups 也很推荐。这篇其实干货不多，但是
 
 Hinton 亲传弟子介绍深度学习的实际 tricks，包括data, preprocessing, minibatches, gradient normalization, learning rate, weight initialization, data augmentation, dropout和ensemble。
 
+[**Efficient Training Strategies for Deep Neural Network Language Models**](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips2014/71.pdf?attachauth=ANoY7cp_eDwTXPm6iWHdBRhlIsgPASEAwkW-exLSOsz467mge7zLCkBMWznOu_G90vGVtqNvXOusc4z6cC6hEnHk6YzHtuEr_kyU0fyme7asaECN0zvoNwDk5258CueoB6fY3WtLvbJzYok1xiIeWSFYtk5mKXCXFDMI6djwhjCX1xi0GEEv_x7uMQwTdQlDItZ3kgLnZ2RjctQmIXDCu58fS3Wby4vWX3CkhMIf_EpCXx7jDn_M2SM%3D&attredirects=0)
+
+讨论了如何设置 batch-size, initial learning rate, network initialization，但最有趣的结论应该是：普通的 deep feed-forward architecture比recurrent NN 在 model long distance dependency 效果和效率都更好。
+
 [**Large-scale L-BFGS using MapReduce**](http://papers.nips.cc/paper/5333-large-scale-l-bfgs-using-mapreduce.pdf)
 
 NIPS'14 的论文，简单并行化 LBFGS里面的双循环（最耗时，计算量巨大）。
