@@ -70,6 +70,10 @@ networks?**](http://papers.nips.cc/paper/5347-how-transferable-are-features-in-d
 
 有心人整理的 Hinton 提到的 Dark Knowledge 的一些资源。
 
+[**Stochastic Gradient Descent Tricks**][http://leon.bottou.org/publications/pdf/tricks-2012.pdf]
+
+L eon Bottou 写的 Stochastic Gradient Descent Tricks 挺好，做工程也要做的漂亮。 
+
 [**神经网络训练中的Tricks之高效BP（反向传播算法）](http://blog.csdn.net/zouxy09/article/details/45288129)
 
 翻译文章。神经网络训练中的Tricks之高效BP（反向传播算法），来自与于《Neural Networks: Tricks of the Trade》一书第二版中的第一章 Efficient BackProp 的部分小节。
