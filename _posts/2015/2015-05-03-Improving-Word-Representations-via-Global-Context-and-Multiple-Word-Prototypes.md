@@ -4,7 +4,8 @@ title: Improving Word Representations via Global Context and Multiple Word Proto
 description: 本篇论文意在用全文信息辅助局部信息和多个词向量共同表示一个词的方法，增强语义。不止如此，在我看来，这篇论文最重要的地方有四个：首先的思想是 word disambiguation 在 context level；第二个是用 C&W 的 ranking loss 会比以前的 log-likelihood 训练速度快。第三个是把 local 和 global 的两种 score 设计成 NN 中的两个 part，分别用一层 hidden layer 学习。但是这里他们只用了简单的加法，而没有线性权重参数 $\alpha$。后人许多改进了 $\alpha$，还做了些参数对比展示实验结果。不过本质没区别。第四个是他们并没有直接用 SGD，二是用了 1000 的 mini-batch L-BFGS，这点好像追随的人不多。
 
 image:
-  MultipleVectorWordEmbedding_bg.png
+  feature:
+  	MultipleVectorWordEmbedding_bg.png
 
 comments: true
 share: true
@@ -23,6 +24,8 @@ tags:
 
 
 逐一展开：
+
+
 ##第一点：word disambiguation
 
 虽然 word disambiguation 的问题在 2010年 就有学者关注到了（也是因此激发了本篇论文作者的 idea），但是应该说是这篇论文以后，这个问题才被更多人重视起来。把一词多义的表达加入到了更多任务中。本文的观点是常见的 VSM（vector-space model）中一个词只能表示为一个向量，无法解决同音异义词（发音相同但意义不同）和一词多义的词。针对这一点，本文才提出新的模型，试图解决这个问题。
