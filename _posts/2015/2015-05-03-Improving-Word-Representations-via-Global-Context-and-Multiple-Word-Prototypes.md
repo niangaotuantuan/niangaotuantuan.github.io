@@ -32,16 +32,19 @@ tags:
 该模型使用不同的 representation 来描述某个词的多组意义。即将多义词用多个词向量来表示。首先针对每个词出现的位置设定一个固定大小的窗口（前后各5），得到一个短句，对窗口中的词求其平均权重。然后使用 spherical k-means 聚类方法对这些短句进行聚类，最后每个词在其所属的类别中被重新打上标签（不同类中的同一个词，当作不同的词处理），用于训练类别中的词向量。
 
 但是这里要提请的是，(Liu et al., 2015) 在他们的 AAAI'15 工作中也指出了 Huang 的工作的 limitation。虽然 Huang 试图超越 word-level 的 disambiguation，上升到 context-level（比如设计了新的 dataset），但是他们还是基于 isolated word 来生成的，而且 cluster 也没有 overlap。
-　　
+
+
+
 　　
 ##第二点：C&W
 
 C&W 是 Ronan Collobert 和 Jason Weston 在 2008 年的 ICML 上发表的《A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning》中提出的词向量计算模型。特别之处就在于它的设计函数，它并不是像语言模型里那样去近似求估计的某个位置的词的条件概率，而是求窗口中的连续打分，本质是一种 ranking-typed loss。
 
 这种 ranking-typed loss 显然会适用于一些需要考虑上下文连续性（local context）的任务，同时，在 (Huang et al., 2012) 这篇论文中还提到了一个优点，就是其训练速度会比优化 log-likelihood 的方法快。
-　　
-　　
-　　
+
+
+
+　
 ##第三点：local + global
 
 从题目中就可以看出这是这篇论文的重点。Huang 认为 C&W 的工作只利用了“局部上下文（Local Context）”。Huang 直接使用 C&W 的网络结构计算出一个得分，作为 local score（也就是说，Huang 认为 C&W 是他们的模型的一个 “special case”）。　
