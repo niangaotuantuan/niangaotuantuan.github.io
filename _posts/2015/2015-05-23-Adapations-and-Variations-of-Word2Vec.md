@@ -57,18 +57,31 @@ Note that a context window of size 2 may miss some important contexts (*telescop
 bag-of-words 可以说不仅有 non-order 的问题，还有 words 的问题。也就是说，现在的工作是基于 word/token level 去做的，但实际上已经有不少人质疑这点，认为 character-level 的信息足够可以当做 input 输入。对于 non-order 方面，有人提出了用多个 embedding matrix 来增强 word2vec 中的 同一个 embedding matrix，从而使得原始的 context 位置信息可以保留；而其实刚才上面 linear 增强部分提到的 dependency pair 的方法也可以看做是保留了 order。而，关于 word-level 的问题，很多人虽然考虑了 morpheme 层面的信息，但不能算是直接替代 word-level input；相反，MSR 的 Deep Learning 组，由 Jianfeng Gao 等人 lead 的 DSSM （Deep Structured Semantic Model or Deep Semantic Similarity Model）则提倡从 Sub-Word Unit （SWU）的层面进行输入。相关工作可见：
 
 [4] Mikolov Tomáš, Sutskever Ilya, Deoras Anoop, Le Hai-Son, Kombrink Stefan, Černocký Jan. **Subword Language Modeling with Neural Networks**. Not published (rejected from ICASSP 2012).
+
 [5] Omer Levy and Yoav Goldberg. 2014. **Dependency based word embeddings**. In Proceedings of ACL.
+
 [6] [MSR **DSSM**](http://research.microsoft.com/en-us/projects/dssm/) 系列：
+
 [Huang, He, Gao, Deng, Acero, Heck, CIKM2013] 
+
 [Shen, He, Gao, Deng, Mesnil, WWW2014] 
+
 [Gao, He, Yih, Deng, ACL2014] 
+
 [Yih, He, Meek, ACL2014] 
+
 [Song, He, Gao, Deng, Shen, MSR-TR 2014] 
+
 [Gao, Pantel, Gamon, He, Deng, Shen, EMNLP2014] 
+
 [Shen, He, Gao, Deng, Mesnil, CIKM2014] 
+
 [He, Gao, Deng, ICASSP2014 Tutorial] 
-[Liu, Gao, He, NAACL2015] [Gao, He, Deng, MSR-TR-2015]
-Siyu Qiu, Qing Cui, Jiang Bian, Bin Gao, and Tie-Yan Liu, Co-learning of Word Representations and Morpheme Representations, COLING 2014.
+
+[Liu, Gao, He, NAACL2015] 
+[Gao, He, Deng, MSR-TR-2015]
+
+[7] Siyu Qiu, Qing Cui, Jiang Bian, Bin Gao, and Tie-Yan Liu. 2014. **Co-learning of Word Representations and Morpheme Representations**. COLING.
 
 
 
@@ -79,8 +92,10 @@ Siyu Qiu, Qing Cui, Jiang Bian, Bin Gao, and Tie-Yan Liu, Co-learning of Word Re
 
 既然单纯的 context 可以认为是有用的，也可以被认为是不足的。除了固定 window size 内的上下文 contexts words 信息，还有什么可以用的信息呢？这样的考虑下，又带来了两种不同的改进。一种是直接替换掉 contexts words，用其他 enriched information words，比如 modifier-dependency-label pairs，比如 related word pairs（比如 WordNet 里那些 synonymy words）。另一种就是直接在 local contexts（即 window size 内的 context）的基础上，结合进 global contexts 或者其他 additional information。这种结合多数是线性 combine 进另一个神经网络，首创的就是 Huang et al., 2012 年的非常重要的论文。其他相关改变 contexts 的文章有：
 
-[7] Eric H. Huang, Richard Socher, Christopher D. Manning, Andrew Y. Ng. 2012. **Improving Word Representations via Global Context and Multiple Word Prototypes**. ACL.
-[8] Asli Celikyilmaz, Dilek Hakkani-Tur, Panupong Pasupat, and Ruhi Sarikaya. 2015.  **Enriching Word Embeddings Using Knowledge Graph for Semantic Tagging in Conversational Dialog Systems**. AAAI.
-[9] Mo Yu and Dredze. 2014. **Improving Lexical Embeddings with Semantic Knowledge**. ACL.
+[8] Eric H. Huang, Richard Socher, Christopher D. Manning, Andrew Y. Ng. 2012. **Improving Word Representations via Global Context and Multiple Word Prototypes**. ACL.
+
+[9] Asli Celikyilmaz, Dilek Hakkani-Tur, Panupong Pasupat, and Ruhi Sarikaya. 2015.  **Enriching Word Embeddings Using Knowledge Graph for Semantic Tagging in Conversational Dialog Systems**. AAAI.
+
+[10] Mo Yu and Dredze. 2014. **Improving Lexical Embeddings with Semantic Knowledge**. ACL.
 
 
