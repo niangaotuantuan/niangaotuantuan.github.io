@@ -43,7 +43,9 @@ Note that a context window of size 2 may miss some important contexts (*telescop
 打破 linear 的方法，对于 NLPer 来说，首先就会想到加入 dependency relation，使用已经比较成熟的 dependency parsing（比如 Stanford 的工具），就可以很快引入各种语法树结构，既多了non-linear 的 relation 关系，又有了更多的 tag 作为额外信息，而且还有很顺手的工具包。这方面的工作主要有：
 
 [1] Omer Levy and Yoav Goldberg. 2014. **Dependency based word embeddings**. In Proceedings of ACL.
+
 [2] Wang Ling, Chris Dyer, Alan Black, and Isabel Trancoso. 2015. **Two/too simple adaptations of word2vec for syntax problems**. In Proc. of NAACL.
+
 [3] Mohit Bansal, Kevin Gimpel, Karen Livescu. 2014. **Tailoring Continuous Word Representations for Dependency Parsing**. ACL.
 
 总结他们的思想，主要是将抽取好的 dependency relation 或者其他 relation 和 信息，表达成 modifier-relation/tag 的 pair，这个 pair 作为新的 context，替代原先 word2vec 中的 context 信息。
