@@ -37,6 +37,9 @@ Note that a context window of size 2 may miss some important contexts (*telescop
 
 **(1)linear**
 
+
+![result of Socher's dependency-based word embeddings](/images/MultipleVectorWordEmbedding_bg.png)
+
 打破 linear 的方法，对于 NLPer 来说，首先就会想到加入 dependency relation，使用已经比较成熟的 dependency parsing（比如 Stanford 的工具），就可以很快引入各种语法树结构，既多了non-linear 的 relation 关系，又有了更多的 tag 作为额外信息，而且还有很顺手的工具包。这方面的工作主要有：
 
 [1] Omer Levy and Yoav Goldberg. 2014. **Dependency based word embeddings**. In Proceedings of ACL.
@@ -48,6 +51,8 @@ Note that a context window of size 2 may miss some important contexts (*telescop
 
 
 **（2）bag-of-words**
+
+![The DSSM arthitecture](/images/dssm.png)
 
 bag-of-words 可以说不仅有 non-order 的问题，还有 words 的问题。也就是说，现在的工作是基于 word/token level 去做的，但实际上已经有不少人质疑这点，认为 character-level 的信息足够可以当做 input 输入。对于 non-order 方面，有人提出了用多个 embedding matrix 来增强 word2vec 中的 同一个 embedding matrix，从而使得原始的 context 位置信息可以保留；而其实刚才上面 linear 增强部分提到的 dependency pair 的方法也可以看做是保留了 order。而，关于 word-level 的问题，很多人虽然考虑了 morpheme 层面的信息，但不能算是直接替代 word-level input；相反，MSR 的 Deep Learning 组，由 Jianfeng Gao 等人 lead 的 DSSM （Deep Structured Semantic Model or Deep Semantic Similarity Model）则提倡从 Sub-Word Unit （SWU）的层面进行输入。相关工作可见：
 
@@ -68,6 +73,9 @@ Siyu Qiu, Qing Cui, Jiang Bian, Bin Gao, and Tie-Yan Liu, Co-learning of Word Re
 
 
 **（3）contexts** 
+
+
+![The DSSM arthitecture](/images/dssm.png)
 
 既然单纯的 context 可以认为是有用的，也可以被认为是不足的。除了固定 window size 内的上下文 contexts words 信息，还有什么可以用的信息呢？这样的考虑下，又带来了两种不同的改进。一种是直接替换掉 contexts words，用其他 enriched information words，比如 modifier-dependency-label pairs，比如 related word pairs（比如 WordNet 里那些 synonymy words）。另一种就是直接在 local contexts（即 window size 内的 context）的基础上，结合进 global contexts 或者其他 additional information。这种结合多数是线性 combine 进另一个神经网络，首创的就是 Huang et al., 2012 年的非常重要的论文。其他相关改变 contexts 的文章有：
 
