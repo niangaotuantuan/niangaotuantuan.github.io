@@ -38,7 +38,7 @@ Note that a context window of size 2 may miss some important contexts (*telescop
 **(1)linear**
 
 
-![Two Adaptions of Word2vec](/images/structured-w2v.png)
+![Two Adaptions of Word2vec](/images/structure-w2v.png)
 
 打破 linear 的方法，对于 NLPer 来说，首先就会想到加入 dependency relation，使用已经比较成熟的 dependency parsing（比如 Stanford 的工具），就可以很快引入各种语法树结构，既多了non-linear 的 relation 关系，又有了更多的 tag 作为额外信息，而且还有很顺手的工具包。这方面的工作主要有：
 
