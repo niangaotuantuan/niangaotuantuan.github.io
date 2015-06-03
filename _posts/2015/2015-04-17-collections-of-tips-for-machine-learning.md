@@ -79,4 +79,5 @@ L eon Bottou 写的 Stochastic Gradient Descent Tricks 挺好，做工程也要�
 翻译文章。神经网络训练中的Tricks之高效BP（反向传播算法），来自与于《Neural Networks: Tricks of the Trade》一书第二版中的第一章 Efficient BackProp 的部分小节。
 
 [**Deep Learning for Vision: Tricks of the Trade**](http://bavm2013.splashthat.com/img/events/46439/assets/34a7.ranzato.pdf)
+
 Marc'Aurelio Ranzato 在 CVPR 上 的 presentation slides/talk（Youtube 等地方可以搜到）。caffe 作者之一贾扬清推荐。涉及到了许多 DL 的调参技巧（在 slides 比较靠后的地方）
