@@ -41,6 +41,8 @@ links:
     url: /guestbook
   - title: Friends
     url: /friends
+  - title: Publications of Deep Learning in NLP
+    url: /resources
   - title: NLP links
     url: https://web.cs.dal.ca/~vlado/nlp/
     external: true
