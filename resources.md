@@ -20,6 +20,7 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 
 #### Bengio et al's survey on representation learning
 + Yoshua Bengio, Aaron Courville and Pascal Vincent. "Representation Learning: A Review and New Perspectives." [pdf](http://arxiv.org/pdf/1206.5538v3.pdf) TPAMI 35:8(1798-1828)
+
 #### Bengio, LeCun Yann, Yoshua Bengio and Geoffrey Hinton's survey on *Nature*
 + Yann LeCun, Yoshua Bengio	 and Geoffrey Hinton. "Deep Learning"
 [pdf](http://download.csdn.net/detail/happytofly/8758755) Nature 521, 436–444
