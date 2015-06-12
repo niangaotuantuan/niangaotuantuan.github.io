@@ -40,7 +40,7 @@ Hinton 亲传弟子介绍深度学习的实际 tricks，包括data, preprocessin
 
 讨论了如何设置 batch-size, initial learning rate, network initialization，但最有趣的结论应该是：普通的 deep feed-forward architecture比recurrent NN 在 model long distance dependency 效果和效率都更好。
 
-[Neural Networks Best Practice](http://www.kentran.net/2013/04/neural-network-best-practices.html)
+[**Neural Networks Best Practice**](http://www.kentran.net/2013/04/neural-network-best-practices.html)
 
 Uber 的 data scientist 写的。比如: Rectifier is becoming popular as an activation function. However, I find its theory dubious and my experiments have not shown that it is always better. That said, I'm experimenting with new activation functions. (Little trivia: I'm borrowing many ideas from my graduate work in computational wave propagation.) 
 
