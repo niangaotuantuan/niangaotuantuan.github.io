@@ -64,6 +64,11 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + Tim Rocktaschel, Sameer Singh and Sebastian Riedel. "Injecting Logical Background Knowledge into Embeddings for Relation Extraction" [pdf](http://rockt.github.io/pdf/rocktaschel2015injecting.pdf) NAACL 2015
 + [exact interpretation] Yitan Li, Linli Xu, Fei Tian, Liang Jiang, Xiaowei Zhong and Enhong Chen. "Word Embedding Revisited: A New Representation Learning and Explicit Matrix Factorization Perspective" [pdf](http://home.ustc.edu.cn/~etali/papers/EMF-IJCAI2015.pdf) IJCAI 2015
 
+#### Embeddings from spectral methods
++ [convex and original] Dhillon, Foster and Ungar, "Multi-View Learning of Word Embeddings via CCA".[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.6964&rep=rep1&type=pdf) NIPS 2011
++ Dhillon, Rodu, Foster and Ungar, "Two Step CCA: A new spectral method for estimating vector models of words".[pdf](http://www.pdhillon.com/dhillon_icml12_cca.pdf) ICML 2012
++ [non-convex] Stratos, Michael Collins, and Daniel Hsu. "Model-based Word Embeddings from Decompositions of Count Matrices" [pdf](http://www.cs.columbia.edu/~djhsu/papers/count_words.pdf) ACL 2015
+
 #### Classic(!)
 + Brown et al., "Class-Based n-Gram Models of Natural Language." [pdf] Computational Linguistics 1992
 
