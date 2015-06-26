@@ -13,6 +13,19 @@ On this blog, I mostly write about Natural Language Processing, Deep Learning, S
 
 I was an undergraduate from the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). I also do some research at Microsoft as **Applied Researcher and Developer**.
 
+### Publications
+
+- Yanran Li, Wenjie Li, and Sujian Li. 
+A Hierarchical Knowledge Representation for Expert Finding on Social Media [pdf](/files/acl2015.pdf)
+To appear in Proceedings of ACL, 2015
+
+- Yanran Li, Sujian Li. 
+Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning [pdf](/files/coling2014.pdf) 
+Proceedings of COLING, 2014
+
+
+### misc
+
 As I didn't want my about page to be a direct result of boredom, I concluded that the best way I can think of to describe myself is to list all of the things that make me happy. So in no particular order, here it goes: 
 
 **Books (mostly Literatures). Arts (I also paint). Running. Family & Friends. Traveling. A good Sunday sunshine. Hand lettering. Coffee. Dancing (I used to dance). Gardening (I'd like to be my career). The smell of fresh flowers.**
