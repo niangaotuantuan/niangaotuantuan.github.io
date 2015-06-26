@@ -30,4 +30,4 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 
 [Azeril's **Microdust**](http://azeril.me/)
 
-[Ofey's **Website**](http://ofey.me/)
+[Ofey's **Homepage**](http://ofey.me/)
