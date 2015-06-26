@@ -20,7 +20,7 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 
 [R2D2's **Blog**](http://blog.liulixiang.info/)
 
-[**Programet**](http://blog.programet.org/)
+[hetong's **Programet**](http://blog.programet.org/)
 
 [Xuening Zhu's **Blog**](http://www.xueningzhu.com/)
 
