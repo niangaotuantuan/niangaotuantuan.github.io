@@ -29,3 +29,5 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 [huangz's **Blog**](http://blog.huangz.me/index.html)
 
 [Azeril's **Microdust**](http://azeril.me/)
+
+[Ofey's **Website**](http://ofey.me/)
