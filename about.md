@@ -16,7 +16,7 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 ### Publications
 
 - Yanran Li, Wenjie Li, and Sujian Li. 
-A Hierarchical Knowledge Representation for Expert Finding on Social Media. To appear in Proceedings of ACL, 2015. [pdf](/files/acl2015.pdf)
+A Hierarchical Knowledge Representation for Expert Finding on Social Media. To appear in Proceedings of ACL, 2015. [[pdf]](/files/acl2015.pdf)
 
 - Yanran Li, Sujian Li. 
 Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning. Proceedings of COLING, 2014. [[pdf]](/files/coling2014.pdf) 
