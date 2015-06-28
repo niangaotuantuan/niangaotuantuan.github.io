@@ -20,13 +20,11 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 
 #### Bengio et al's survey on representation learning
 + Yoshua Bengio, Aaron Courville and Pascal Vincent. "Representation Learning: A Review and New Perspectives." [pdf](http://arxiv.org/pdf/1206.5538v3.pdf) TPAMI 35:8(1798-1828)
-
 #### Bengio, LeCun Yann, Yoshua Bengio and Geoffrey Hinton's survey on *Nature*
 + Yann LeCun, Yoshua Bengio	 and Geoffrey Hinton. "Deep Learning"
 [pdf](http://download.csdn.net/detail/happytofly/8758755) Nature 521, 436–444
 
 ### Embeddings & Language Models
-
 #### Skip-gram embeddings
 
 + Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. "Efficient Estimation of Word Representations in Vector Space." [pdf](http://arxiv.org/pdf/1301.3781.pdf) ICLR, 2013. 
@@ -64,16 +62,18 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + Tim Rocktaschel, Sameer Singh and Sebastian Riedel. "Injecting Logical Background Knowledge into Embeddings for Relation Extraction" [pdf](http://rockt.github.io/pdf/rocktaschel2015injecting.pdf) NAACL 2015
 + [exact interpretation] Yitan Li, Linli Xu, Fei Tian, Liang Jiang, Xiaowei Zhong and Enhong Chen. "Word Embedding Revisited: A New Representation Learning and Explicit Matrix Factorization Perspective" [pdf](http://home.ustc.edu.cn/~etali/papers/EMF-IJCAI2015.pdf) IJCAI 2015
 
-#### Embeddings from spectral methods
-+ [convex and original] Dhillon, Foster and Ungar, "Multi-View Learning of Word Embeddings via CCA".[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.230.6964&rep=rep1&type=pdf) NIPS 2011
-+ Dhillon, Rodu, Foster and Ungar, "Two Step CCA: A new spectral method for estimating vector models of words".[pdf](http://www.pdhillon.com/dhillon_icml12_cca.pdf) ICML 2012
-+ [non-convex] Stratos, Michael Collins, and Daniel Hsu. "Model-based Word Embeddings from Decompositions of Count Matrices" [pdf](http://www.cs.columbia.edu/~djhsu/papers/count_words.pdf) ACL 2015
+#### Embedding obtained from other methods
++ [noise-contrasive estimation] Andriy Mnih and Koray Kavukcuoglu, "Learning word embeddings efficiently with noise-contrastive estimation" [pdf](https://www.cs.toronto.edu/~amnih/papers/wordreps.pdf) NIPS 2013
++ [logarithm of word-word co-occurrences] Jeffrey Pennington, Richard Socher, and Christopher D. Manning, "GloVe: Global Vectors for Word Representation" [pdf](http://llcao.net/cu-deeplearning15/presentation/nn-pres.pdf) EMNLP 2014
++ [explicitly encode co-occurrences] Levy Omer, Yoav Goldberg, and Israel Ramat-Gan, "Linguistic regularities in sparse and explicit word representations." [pdf](http://anthology.aclweb.org/W/W14/W14-16.pdf#page=181) CoNLL 2014.
 
 #### Classic(!)
 + Brown et al., "Class-Based n-Gram Models of Natural Language." [pdf] Computational Linguistics 1992
 
-
 ### Example Notes, Mini-Tutorials, Technical Reports
+
++ Yoav Goldberg. "A note on Latent Semantic Analysis" [pdf] Tech-report 
++ Yoav Goldberg and Omer Levy "word2vec explained: deriving Mikolov et al.'s negative-sampling word-embedding method" [pdf] Tech-report 2013
 
 + Yoav Goldberg. "A note on Latent Semantic Analysis" [pdf] Tech-report 
 + Yoav Goldberg and Omer Levy "word2vec explained: deriving Mikolov et al.'s negative-sampling word-embedding method" [pdf] Tech-report 2013
