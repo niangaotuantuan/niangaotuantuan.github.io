@@ -11,7 +11,7 @@ I am **Yanran Li**, a Research Assistant now at PolyU (Hong Kong).
 
 On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
 
-I was an undergraduate from the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). I also do some research at Microsoft as **Applied Researcher and Developer**.
+I was an undergraduate from the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). 
 
 ### Publications
 
