@@ -15,7 +15,7 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 
 ### Publications
 
-- Yanran Li and Wenjie Li.
+- Yanran Li, Wenjie Li, Fei Sun, and Sujian Li.
 Component-Enhanced Chinese Character Embeddings. To appear in Proceedings of EMNLP, 2015.
 
 - Yanran Li, Wenjie Li, and Sujian Li. 
@@ -23,6 +23,11 @@ A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proc
 
 - Yanran Li and Sujian Li. 
 Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning. Proceedings of COLING, 2014. [[pdf]](/files/coling2014.pdf) 
+
+### Book Chapters
+
+- Yanran Li.
+Natural Language Processing is Everywhere. Book Chapter. Post & Telecom Press, July 2015. 
 
 
 ### misc
