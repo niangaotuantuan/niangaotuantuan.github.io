@@ -41,13 +41,13 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 Traveling in Italy made my summer. 
 
 Genova is a small city with a fantastic Acquarium. 
-![Photos taken in Florence, Italy](/images/album/genova_1.JPG)
+![Photos taken in Genova, Italy](/images/album/genova_1.JPG)
 
 I named this photo taken in Genova's Acquarium, *Solitude*.
-![Photos taken in Florence, Italy](/images/album/genova_3.JPG)
+![Photos taken in Genova, Italy](/images/album/genova_3.JPG)
 
 Also, except Rome, one cannot miss Venice and its Burano...
-![Photos taken in Florence, Italy](/images/album/venice_4.jpg)
+![Photos taken in Venice, Italy](/images/album/venice_4.jpg)
 
 Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
 ![Photos taken in Florence, Italy](/images/album/florence_4.jpg)
