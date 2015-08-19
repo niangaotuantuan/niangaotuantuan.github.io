@@ -47,7 +47,7 @@ I named this photo taken in Genova's Acquarium, *Solitude*.
 ![Photos taken in Genova, Italy](/images/album/genova_3.JPG)
 
 Also, except Rome, one cannot miss Venice and its Burano...
-![Photos taken in Venice, Italy](/images/album/venice_4.jpg)
+![Photos taken in Venice, Italy](/images/album/venice_1.jpg)
 
 Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
 ![Photos taken in Florence, Italy](/images/album/florence_4.jpg)
