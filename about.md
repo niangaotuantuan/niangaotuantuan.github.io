@@ -46,17 +46,17 @@ Genova is a small city with a fantastic Acquarium.
 I named this photo taken in Genova's Acquarium, *Solitude*.
 ![Photos taken in Florence, Italy](/images/album/genova_3.JPG)
 
+Also, except Rome, one cannot miss Venice and its Burano...
+![Photos taken in Florence, Italy](/images/album/venice_4.jpg)
+
 Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
+![Photos taken in Florence, Italy](/images/album/florence_4.jpg)
 
 Especially the morning and the river I lived near, it reminds me of the pictures of my favourite artist, [*Rembrand*](https://en.wikipedia.org/wiki/Rembrandt).
-![Photos taken in Florence, Italy](/images/album/florence_4.jpg)
 ![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_2.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_3.JPG)
 
-
-
-       
 
                  
 
