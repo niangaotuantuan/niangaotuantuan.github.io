@@ -51,7 +51,7 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 *So come dreamers, and trailblazers, champions. Come builders.*       
 *It's morning, wake up, and be amazing.*  
    
-![Photos taken in Florence, Italy]（/images/album/florence_1.JPG）
+![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
 
          
 
