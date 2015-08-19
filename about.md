@@ -42,7 +42,6 @@ Traveling in Italy made my summer.
 
 Genova is a small city with a fantastic Acquarium. 
 ![Photos taken in Florence, Italy](/images/album/genova_1.JPG)
-![Photos taken in Florence, Italy](/images/album/genova_2.JPG)
 
 I named this photo taken in Genova's Acquarium, *Solitude*.
 ![Photos taken in Florence, Italy](/images/album/genova_3.JPG)
@@ -50,6 +49,7 @@ I named this photo taken in Genova's Acquarium, *Solitude*.
 Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
 
 Especially the morning and the river I lived near, it reminds me of the pictures of my favourite artist, [*Rembrand*](https://en.wikipedia.org/wiki/Rembrandt).
+![Photos taken in Florence, Italy](/images/album/florence_4.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_2.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_3.JPG)
