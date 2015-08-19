@@ -43,6 +43,8 @@ Traveling in Italy made my summer.
 Genova is a small city with a fantastic Acquarium. 
 ![Photos taken in Florence, Italy](/images/album/genova_1.JPG)
 ![Photos taken in Florence, Italy](/images/album/genova_2.JPG)
+
+I named this photo taken in Genova's Acquarium, *Solitude*.
 ![Photos taken in Florence, Italy](/images/album/genova_3.JPG)
 
 Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
