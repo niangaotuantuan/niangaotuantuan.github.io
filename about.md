@@ -38,7 +38,14 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 
 ### Traveling photos
 
-Traveling in Italy...
+Traveling in Italy made my summer. 
+
+Genova is a small city with a fantastic Acquarium. 
+![Photos taken in Florence, Italy](/images/album/genova_1.JPG)
+![Photos taken in Florence, Italy](/images/album/genova_2.JPG)
+![Photos taken in Florence, Italy](/images/album/genova_3.JPG)
+
+Florence is my favourite city, a flowery and charming city. I wanna make my holiday everytime here..
 ![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_2.JPG)
 ![Photos taken in Florence, Italy](/images/album/florence_3.JPG)
