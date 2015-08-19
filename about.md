@@ -36,8 +36,12 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 
 **Books (mostly Literatures). Arts (I also paint). Running. Family & Friends. Traveling. A good Sunday sunshine. Hand lettering. Coffee. Dancing (I used to dance). Gardening (I'd like to be my career). The smell of fresh flowers.**
 
+### Traveling photos
 
-
+Traveling in Italy...
+![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
+![Photos taken in Florence, Italy](/images/album/florence_2.JPG)
+![Photos taken in Florence, Italy](/images/album/florence_3.JPG)
 
 
 
@@ -50,9 +54,6 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 *It's a clean slate. A fresh start.*   
 *So come dreamers, and trailblazers, champions. Come builders.*       
 *It's morning, wake up, and be amazing.*  
-   
-![Photos taken in Florence, Italy](/images/album/florence_1.JPG)
-
          
 
 
