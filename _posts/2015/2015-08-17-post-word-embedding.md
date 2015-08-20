@@ -87,35 +87,21 @@ Problem: 1) 就是上面说到的 no interaction 假设；2) 另一个不太优�
 另外，也有一些中文研究者开始了中文的 distributed representation 的研究，如初步发表在 EMNLP 2015 上的[《**Comonent-Enhanced Chinese Character Embeddings**》](/files/emnlp2015comp.pdf)[^14]。
 
 
+
 ### References
 
-1. On the design of LDA models for aspect-based opinion mining.
-2. The FLDA model for aspect-based opinion mining: addressing the cold start problem. 
-3. Siwei Lai, Kang Liu, Liheng Xu, Jun Zhao. 2015. How to Generate a Good Word Embedding? arXiv pre-print.
-4. T. K. Landauer. On the computational basis of learning and cognition: Arguments from lsa. Psychology of learning and motivation, 41:43–84, 2002.
-5. Unsupervised Morphology Induction Using Word Embeddings. NAACL.
-6. Ignacio Iacobacci, Mohammad Taher Pilehvar and Roberto Navigli. 2015. 
-7. SensEmbed: Learning Sense Embeddings for Word and Relational Similarity. ACL.Zhigang Chen, Wei Lin, Qian Chen, et al. 2015. Revisiting Word Embedding for Contrasting Meaning. ACL.
-8. DAN.
-9. Angeliki Lazaridou, Georgiana Dinu and Marco Baroni. 2015. Hubness and Pollution: Delving into Cross-Space Mapping for Zero-Shot Learning. ACL. 
-10. Retrofitting.
-11. Sascha Rothe and Hinrich Schütze. 2015. AutoExtend: Extending Word Embeddings to Embeddings for Synsets and Lexemes. ACL.
-12. Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, et al. 2015. Skip- Thought Vectors. arXiv pre-print.
-13. Antoine Bride, Tim Van de Cruys and Nicholas Asher. 2015. A Generalisation of Lexical Functions for Composition in Distributional Semantics. ACL.
-14. Yanran Li, Wenjie Li, Fei Sun, et al. 2015. Component- Enhanced Chinese Character Embeddings. EMNLP.
 
-
-[^1]: On the design of LDA models for aspect-based opinion mining.
-[^2]: The FLDA model for aspect-based opinion mining: addressing the cold start problem. 
+[^1]: Samaneh Moghaddam and Martin Ester. 2013. On the design of LDA models for aspect-based opinion mining. CIKM.
+[^2]: Samaneh Moghaddam Martin Ester. 2013. The FLDA model for aspect-based opinion mining: addressing the cold start problem. WWW.
 [^3]: Siwei Lai, Kang Liu, Liheng Xu, Jun Zhao. 2015. How to Generate a Good Word Embedding? arXiv pre-print.
-[^4]: T. K. Landauer. On the computational basis of learning and cognition: Arguments from lsa. Psychology of learning and motivation, 41:43–84, 2002.
-[^5]: Unsupervised Morphology Induction Using Word Embeddings. NAACL.
+[^4]: T. K. Landauer. 2002. On the computational basis of learning and cognition: Arguments from lsa. Psychology of learning and motivation, 41:43–84.
+[^5]: Radu Soricut and Franz Och. 2015. Unsupervised Morphology Induction Using Word Embeddings. NAACL.
 [^6]: Ignacio Iacobacci, Mohammad Taher Pilehvar and Roberto Navigli. 2015. SensEmbed: Learning Sense Embeddings for Word and Relational Similarity. ACL.
 [^7]: Zhigang Chen, Wei Lin, Qian Chen, et al. 2015. Revisiting Word Embedding for Contrasting Meaning. ACL.
-[^8]: DAN.
+[^8]: Mohit Iyyer, Varun Manjunatha, Jordan Boyd-Graber, et al. 2015. Deep Unordered Composition Rivals Syntactic Methods for Text Classification. ACL.
 [^9]: Angeliki Lazaridou, Georgiana Dinu and Marco Baroni. 2015. Hubness and Pollution: Delving into Cross-Space Mapping for Zero-Shot Learning. ACL. 
-[^10]: Retrofitting.
+[^10]: Faruqui Manaal, Dodge Jesse, Jauhar Sujay K, et al. 2015. Retrofitting Word Vectors to Semantic Lexicons. NAACL.
 [^11]: Sascha Rothe and Hinrich Schütze. 2015. AutoExtend: Extending Word Embeddings to Embeddings for Synsets and Lexemes. ACL.
-[^12]: Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, et al. 2015. Skip- Thought Vectors. arXiv pre-print.
+[^12]: Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, et al. 2015. Skip-Thought Vectors. arXiv pre-print.
 [^13]: Antoine Bride, Tim Van de Cruys and Nicholas Asher. 2015. A Generalisation of Lexical Functions for Composition in Distributional Semantics. ACL.
 [^14]: Yanran Li, Wenjie Li, Fei Sun, et al. 2015. Component- Enhanced Chinese Character Embeddings. EMNLP.
