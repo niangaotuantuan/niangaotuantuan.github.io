@@ -16,7 +16,7 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 ### Publications
 
 - Yanran Li, Wenjie Li, Fei Sun, and Sujian Li.
-Component-Enhanced Chinese Character Embeddings. To appear in Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf)
+Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf)
 
 - Yanran Li, Wenjie Li, and Sujian Li. 
 A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proceedings of ACL, 2015. [[pdf]](/files/acl2015exp.pdf)
