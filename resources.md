@@ -46,6 +46,9 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + [embedding relations] Asli Celikyilmaz, Dilek Hakkani-Tur, Panupong Pasupat, Ruhi Sarikaya. "Enriching Word Embeddings Using Knowledge Graph for Semantic Tagging in Conversational Dialog Systems" [pdf](http://research.microsoft.com/pubs/238362/Celikyilmaz.pdf) AAAI 2015 (Short)
 + [multimodal] Angeliki Lazaridou, Nghia The Pham and Marco Baroni. "Combining Language and Vision with a Multimodal Skip-gram Model" [pdf](http://arxiv.org/pdf/1501.02598v3.pdf) NAACL 2015
 + [syntax-word order] Wang Liang, Chris Dyer, Alan Black, Isabel Trancoso. "Two/Too Simple Adaptations of Word2Vec for Syntax Problems" [pdf](http://www.cs.cmu.edu/~lingwang/papers/naacl2015.pdf) NAACL 2015 (Short)
++ [autoencoder, lexeme, lexical resource, synset] Sascha Rothe and Hinrich Schutze, "AutoExtend: Extending Word Embeddings to Embeddings for Synsets and Lexemes" [pdf](http://arxiv.org/pdf/1507.01127v1.pdf) **ACL 2015 Best Paper**
++ [lexical resource, babelnet] Ignacio Iacobacci, Mohammad Taher Pilehvar and Roberto Navigli, "SensEmbed: Learning Sense Embeddings for Word and Relational Similarity" [pdf](http://wwwusers.di.uniroma1.it/~navigli/pubs/ACL_2015_Iacobaccietal.pdf) ACL 2015
++ [specific linguistic relation] Zhigang Chen, Wei Lin, Qian Chen, Xiaoping Chen, Si Wei, Hui Jiang and Xiaodan Zhu, "Revisiting Word Embedding for Contrasting Meaning" [pdf](http://www.anthology.aclweb.org/P/P15/P15-1011.pdf) ACL 2015
 
 #### Embedding enhancement: Word order, Morphological, etc
 + [syntax-word order] Wang Liang, Chris Dyer, Alan Black, Isabel Trancoso. "Two/Too Simple Adaptations of Word2Vec for Syntax Problems" [pdf](http://www.cs.cmu.edu/~lingwang/papers/naacl2015.pdf) NAACL 2015 (Short)
@@ -55,7 +58,7 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + [morpheme] Siyu Qiu, Qing Cui, Jiang Bian, Bin Gao, Tie-Yan Liu. "Co-learning of Word Representations and Morpheme Representations" [pdf](http://www.aclweb.org/anthology/C14-1015) COLING 2014 
 + [morphological] Ryan Cotterell and Hinrich Schütze. "Morphological Word-Embeddings" [pdf](http://www.aclweb.org/anthology/N/N15/N15-1140.pdf) NAACL 2015 (Short)
 + [regularization] Dani Yogatama, Manaal Faruqui, Chris Dyer, Noah Smith. "Learning Word Representations with Hierarchical Sparse Coding" [pdf](http://arxiv.org/pdf/1406.2035.pdf) ICML 2015
-
++ [character, word order, based on word2vec] Andrew Trask David Gilmore Matthew Russell, "Modeling Order in Neural Word Embeddings at Scale" [pdf](http://jmlr.org/proceedings/papers/v37/trask15.pdf) ICML 2015
 
 #### Embeddings as matrix factorization
 + [approximate interpretation] Levy and Goldberg, "Neural Word Embedding as Implicit Matrix Factorization." [pdf](https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf) NIPS 2014 
@@ -72,6 +75,7 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + [comparison between pretrained embeddings] Yanqing Chen, Bryan Perozzi, Rami Al-Rfou, and Steven Skiena. "The expressive power of word embeddings" [pdf](http://arxiv.org/pdf/1301.3226.pdf)  ICML 2013
 + [prediction fashioned matters] Felix Hill, KyungHyun Cho, Sebastien Jean, et al., "Not all neural embeddings are born equal" [pdf](http://arxiv.org/abs/1410.0718) NIPS Workshop 2014
 + [multichannel as multi-embeddings input] Wenpeng Yin, Hinrich Schütze. "MultiGranCNN: An Architecture for General Matching of  Text Chunks on Multiple Levels of Granularity" ACL 2015
++ [dimension, corpus, compare] Siwei Lai, Kang Liu, Liheng Xu, Jun Zhao, "How to Generate a Good Word Embedding?" [pdf](http://arxiv.org/abs/1507.05523) arXiv pre-print
 
 #### Word Representations via Distribution Embedding 
 + Katrin Erk, "Representing Words As Regions in Vector Space". [pdf](http://dl.acm.org/citation.cfm?id=1596374.1596387) In Proceedings of the Thirteenth Conference on Computational Natural Language Learning, Boulder, Colorado, 2009. 
@@ -105,6 +109,12 @@ without Word Alignment." ACL 2014
 Documents." ICML (2014).
 + [ARC-I, ARC-II, 2D convolutional, order perserving] Baotian Hu, Zhengdong Lu, Hang Li, etc. “Convolutional Neural Network Architectures for Matching Natural Language Sentences.” [pdf](http://www.hangli-hl.com/uploads/3/1/6/8/3168008/hu-etal-nips2014.pdf) NIPS 2014 
 
+#### RNNs and their variants
++ [RNN with GRUs] Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, Antonio Torralba, Raquel Urtasun, Sanja Fidler, "Skip-Thought Vectors" [pdf](http://arxiv.org/abs/1506.06726) NIPS 2015
+
+#### other NN architectures
++ [DAN, average, simple but effective] Mohit Iyyer, Varun Manjunatha, Jordan Boyd-Graber, and Hal Daumé III, "Deep Unordered Composition Rivals Syntactic Methods for Text Classification" [pdf](http://cs.umd.edu/~miyyer/pubs/2015_acl_dan.pdf) ACL 2015
+
 ### Document Modeling
 + [2D convolutional] Misha Denil, Alban Demiraj, Nal Kalchbrenner, Phil Blunsom, Nando de Freitas. "Modelling, Visualising and Summarising Documents with a Single Convolutional Neural Network" [pdf](http://arxiv.org/abs/1406.3830) in CoRR 2014.
 + Hermann, Karl Moritz, and Phil Blunsom. "Multilingual Models for Compositional
@@ -126,7 +136,11 @@ Documents." ICML (2014).
 + [parsing] Oriol Vinyals, Lukasz Kaiser, Terry Koo, Slav Petrov, Ilya Sutskever, Geoffrey Hinton, "Grammar as Foreign Language" [pdf](http://arxiv.org/pdf/1412.7449.pdf) arXiv 2014 
 + [program] Wojciech Zaremba, Ilya Sutskever, "Learning to Execute" [pdf](http://arxiv.org/pdf/1410.4615v2.pdf) arXiv 2014 
 + [translation] Ilya Sutskever, Oriol Vinyals, Quoc Le, "Sequence to Sequence Learning with Neural Networks" [pdf](http://arxiv.org/pdf/1409.3215.pdf) NIPS 2014
-+ [more stuff at naacl 2015]
++ [attention-based LSTM, summarization] Alexander M. Rush, Sumit Chopra and Jason Weston, "A Neural Attention Model for Abstractive Sentence Summarization" [pdf](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP044.pdf) EMNLP 2015
++ [bi-LSTM, character] Wang Ling, Tiago Luis, Luis Marujo, Ramon Fernandez Astudillo, Silvio Amir, Chris Dyer, Alan W Black, Isabel Trancoso, "Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation" [pdf](http://www.cs.cmu.edu/~lingwang/papers/emnlp2015.pdf) EMNLP 2015
++ [reading gate, dialogue cell] Tsung-Hsien Wen, Milica Gasic, Nikola Mrksic, Pei-Hao Su, David Vandyke, Steve Young, "Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems" [pdf](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP199.pdf) **EMNLP 2015 Best Paper**
++ [state embedding, character] Miguel Ballesteros, Chris Dyer and Noah A. Smith, "Improved Transition-Based Parsing by Modeling Characters instead of Words with LSTMs" [pdf](http://arxiv.org/pdf/1508.00657.pdf) EMNLP 2015
++ [no stacked, highway networks, character, CNN with LSTM] Yoon Kim, Yacine Jernite, David Sontag, Alexander M. Rush "Character-Aware Neural Language Models" [pdf](http://arxiv.org/pdf/1508.06615v2.pdf) arXiv pre-print
 
 #### CNNs: convolution neural networks for language
 + [convoluting from character-level to doc-level] Xiang Zhang, Yann LeCun. "Text Understanding from Scratch" [pdf](http://arxiv.org/pdf/1502.01710v1.pdf) 
@@ -134,6 +148,8 @@ Documents." ICML (2014).
 + [convnet for sentences, dynamic, k-max pooling, stacked] Nal Kalchbrenner, Edward Grefenstette and Phil Blunsom. "A Convolutional Neural Network for Modelling Sentences" [pdf](http://nal.co/papers/Kalchbrenner_DCNN_ACL14) ACL 2014. 
 + [unsupervised pretraining for CNN] Wenpeng Yin and Hinrich Schutze. "Convolutional Neural Network for Paraphrase Identification." [pdf](http://aclweb.org/anthology/N/N15/N15-1091.pdf) NAACL 2015 
 + [convolute better with word order, parallel-CNN, different region] Rie Johnson and Tong Zhang. "Effective Use of Word Order for Text Categorization with Convolutional Neural Networks" [pdf](http://arxiv.org/abs/1412.1058)
++ [character, ConvNet, data augumentation] Xiang Zhang, Junbo Zhao, Yann LeCun, "Character-level Convolutional Networks" [pdf](http://arxiv.org/pdf/1509.01626v2.pdf) NIPS 2015
++ [no stacked, highway networks, character, CNN with LSTM] Yoon Kim, Yacine Jernite, David Sontag, Alexander M. Rush "Character-Aware Neural Language Models" [pdf](http://arxiv.org/pdf/1508.06615v2.pdf) arXiv pre-print
 
 #### QA with commonsense reasoning
 + [nlp for AI] Jason Weston, Antoine Bordes, Sumit Chopra, Tomas Mikolov. "Towards AI-Complete Question Answering:A Set of Prerequisite Toy Tasks" [pdf](http://arxiv.org/pdf/1502.05698v4.pdf) 2015 
