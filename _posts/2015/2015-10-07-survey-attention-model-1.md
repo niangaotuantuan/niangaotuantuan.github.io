@@ -28,6 +28,7 @@ Such attention-based mechanism is motivated from that, instead of decoding based
 The attention mechanism is easy to implement as well as to comprehend. Following the motivation, it alternates the context layer in RNN with a context vector $$c_i$$ for each target word $$y_i$$. Each $$c_i$$ associated with a softmax depicts a kind of expected annotation, which is analogous to expectation in statistics. Therefore, we no longer encodes a whole sentence into one holistic representation. We segment a sentence into several parts associated with an annotation. For each target $$y_i$$, we will align different weights of annotations. See Secion 3.1 and Eq.(6) in their paper for details.  
 ![Attention Mechanism](/images/attention-1-2.png)
 ![Soft Alignment Model](/images/attention-1-3.png)
+
 My minor point for this paper is that their basis network is also the bi-directional RNN, which has been proved several times to be effective in machine translation tasks. 
 
 ---------------------------------------
@@ -43,6 +44,7 @@ The third paper is also from ACL'15, [**A Hierarchical Neural Autoencoder for Pa
 The fourth paper is the newly EMNLP'15 paper, [**A Neural Attention Model for Sentence Summarization**](http://www.emnlp2015.org/proceedings/EMNLP/pdf/EMNLP044.pdf), from Alexander M. Rush, Sumit Chopra and Jason Weston. This is the first NLP paper adopting attention mechanism into summarization task.
 
 ![Key Idea behind Attention Mechanism](/images/attention-4-1.png)
+
 This paper utilizes neural language models to generate sentence summarization word by word, which goes beyond previous sentence-based extractive methods and phrase-based abstractive approaches for sentence summarization. More specific, their Attention-Based Summarization (ABS) approach is modeled off the attention-based encoder and a beam-search decoder with extractive features, which can be seen as a tradeoff between abstractive and extractive methods.
 For the encoder models, they deploy four step-by-step models of which two are only considering the input word information, and the other two combining the embedded current context information. Thus, the latter two encoders, which are simultaneously learning embeddings for the input with distributions based on the current context, are capable to show interpretable alignment between the summary and the input sentence. The author conducted extensive experiments on sevesal strong and well-known baseline models, achieving promising results. Especially, their tuned model ABS+, which leverages the advantage of fluency by extracive features, scores significantly the best on the tasks. While they introduced how to tune the weight vector alpha, they don't report the real value of the alpha in the final best performance. Such real values would be beneficial to examine the importance of the extractive features. Therefore, I'm weakly hesitated for the analysis of the degree of their attention-based neural models.
 ![Key Idea behind Attention Mechanism](/images/attention-4-2.png)
