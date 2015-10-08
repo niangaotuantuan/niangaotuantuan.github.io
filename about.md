@@ -36,6 +36,9 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 
 **Books (mostly Literatures). Arts (I also paint). Running. Family & Friends. Traveling. A good Sunday sunshine. Hand lettering. Coffee. Dancing (I used to dance). Gardening (I'd like to be my career). The smell of fresh flowers.**
 
+### Pieces of my Chinese drawings and calligraphy works
+![](/images/album/draw-1.jpg)![](/images/album/draw-2.jpg)![](/images/album/draw-3.jpg)
+
 ### Traveling photos
 
 Traveling in Italy made my summer. 
