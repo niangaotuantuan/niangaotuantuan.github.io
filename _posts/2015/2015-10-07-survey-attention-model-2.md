@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Survey on Advanced Attention-based Models
-description: In the previous post, I briefly introduces a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two class of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision around 2013. Due to differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
+description: In the previous post, I briefly introduce a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two class of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision around 2013. Due to differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
 
 
 comments: true
