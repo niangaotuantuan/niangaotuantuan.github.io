@@ -16,7 +16,7 @@ tags:
 - paper
 ---
 
-Attention-based models are firstly proposed in the field of computer vision around late 2013. And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
+Attention-based models are firstly proposed in the field of computer vision around ~~late 2013~~ mid 2014 (thanks for the remindar from @archychu). And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
 
 The first one should be the "guy" innovately and successfully bringing in attention mechanism from computer vision in to NLP. This is ICLR'15 paper [**Neural Machine Translation by Jointly Learning to Align and Translate**](http://arxiv.org/abs/1409.0473) from Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio. Although called *RNNsearch* by themselves in this paper, the model is in nature and inspired by the attention-based model as what they said in Section 3.1:
 
