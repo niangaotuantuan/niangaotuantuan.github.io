@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Survey on Attention-based Models Applied in NLP
-description: Attention-based models are firstly proposed in the field of computer vision around late 2013. And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
+description: Attention-based models are firstly proposed in the field of computer vision around mid 2014. And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
 
 
 comments: true
