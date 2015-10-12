@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Survey on Advanced Attention-based Models
-description: In the previous post, I briefly introduce a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two class of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision around 2013. Due to differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
+description: In the previous post, I briefly introduce a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two class of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision around late 2014[^1]. Due to differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
 
 
 comments: true
@@ -16,7 +16,7 @@ tags:
 - paper
 ---
 
-In [the previous post](http://yanran.li/peppypapers/2015/10/07/survey-attention-model-1.html), I briefly introduce a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two classes of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision in mid 2014[^1]. Due to the differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
+In [the previous post](http://yanran.li/peppypapers/2015/10/07/survey-attention-model-1.html), I briefly introduce a list of paper applying attention-based models in natural language processing. Though slight different, they are all soft alignment models. However, there actually exits two classes of alignment models, the soft one, and also the hard one. In fact, the soft and hard alignment models are concurred in computer vision in late 2014 [^1]. In this work, the authors explore and compare two variants of this model: a deterministic version trainable using standard backpropagation techniques (soft alignment model) and a stochastic variant trainable by maximizing a variational lower bound (hard one). Due to the differences between CV and NLP (more precisely, image vs. language), hard alignment models are more difficult to transfer into NLP. In this post, I aim at introducing some advanced attention-based models especially hard ones, which have not been yet but will be popular.
 
 The first one, highly-recommended (by me), is arXiv pre-print, [**DRAW：A Recurrent Neural Network For Image**](http://arxiv.org/pdf/1502.04623.pdf)[^2], from Google DeepMind. I cannot better summarize their motivation than they've already done in their preprint:
 
@@ -56,7 +56,7 @@ Back to this paper, they indeed mix these two mechanisms into different layers o
 
 
 ###References
-[^1]: Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu. **Recurrent Models of Visual Attention**. 2014. In Advances in Neural Information Processing Systems.
+[^1]: Kelvin Xu, Jimmy Ba, Ryan Kiros, et al. **Show, Attend and Tell: Neural Image Caption Generation with Visual Attention**. 2015. In Proceedings of ICML.
 [^2]: Karol Gregor, Ivo Danihelka, Alex Graves, et al. **DRAW: A Recurrent Neural Network For Image Generation**. 2015. arXiv pre-print.
 [^3]: Karl Moritz Hermann, Tomáš Kočiský, Edward Grefenstette, et al. **Teaching Machines to Read and Comprehend**. 2015. In Proceedings of NIPS.
 [^4]: Lei Jimmy Ba, Roger Grosse, Ruslan Salakhutdinov, Brendan Frey. **Learning Wake-Sleep Recurrent Attention Models**. 2015. In Proceedings of NIPS.
