@@ -30,7 +30,8 @@ Holding this motivation, the authors pursue a mechanism, **DRAW**, that can mimi
 
 ![DRAW](/images/attention-5-1.png)
 
-Therefore, they propose this model, DRAW. Its name is not simply following the drawing procedure, but a short of *Deep Recurrent Attentive Writer*. For recurrent, they are saying that this is a gradual learning network; for attentive, they are saying the attention mechanism from the very beginning. Also, I could not help even recommending their demo video along with this paper. From [their video](https://www.youtube.com/watch?v=Zt-7MI9eKEo), we can how DRAW is drawing/writing every digit stroke by stroke.
+Therefore, they propose this model, DRAW. Its name is not simply following the drawing procedure, but a short of *Deep Recurrent Attentive Writer*. For recurrent, they are saying that this is a gradual learning network; for attentive, they are saying the attention mechanism from the very beginning. Also, I could not help even recommending their demo video along with this paper. From [their video](https://www.youtube.com/watch?v=Zt-7MI9eKEo), we can see how DRAW is drawing/writing every digit stroke by stroke.
+
 ![Draw digits stroke by stroke](/images/attention-5-2.png)
 
 ---------------------------------------
