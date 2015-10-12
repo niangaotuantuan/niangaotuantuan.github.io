@@ -16,7 +16,7 @@ tags:
 - paper
 ---
 
-Attention-based models are firstly proposed in the field of computer vision around mid 2014 (thanks for the remindar from @archychu). And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
+Attention-based models are firstly proposed in the field of computer vision around mid 2014[^1] (thanks for the remindar from @archychu). And then they spread into Natural Language Processing. In this post, I will mainly focus on a list of attention-based models applied in natural language processing.
 
 The first one should be the "guy" innovately and successfully bringing in attention mechanism from computer vision in to NLP. This is ICLR'15 paper [**Neural Machine Translation by Jointly Learning to Align and Translate**](http://arxiv.org/abs/1409.0473) from Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio. Although called *RNNsearch* by themselves in this paper, the model is in nature and inspired by the attention-based model as what they said in Section 3.1:
 
@@ -53,9 +53,13 @@ For the encoder models, they deploy four step-by-step models of which two are on
 
 ---------------------------------------
 
-I want to put a simple but straightforward paper in the end of this post, the EMNLP'15 short paper, [**Not All Contexts Are Created Equal: Better Word Representations with Variable Attention**](http://www.cs.cmu.edu/~lingwang/papers/emnlp2015-2.pdf), from Wang Ling. Wang Ling is a smart guy whose paper contains lots of simple yet effective ideas. Another example is his NAACL'15 paper, which I've introduced before [in my previous post](http://yanran.li/peppypapers/2015/05/23/Adapations-and-Variations-of-Word2Vec.html). In his NAACL'15 paper, [**Two/Too Simple Adaptations of Word2Vec for Syntax Problems**](http://www.cs.cmu.edu/~lingwang/papers/naacl2015.pdf), he advocates to induce syntactically-motivated embeddings using word order information. The beauty is that they fulfill this by only keeping the parameter the position information in the averaging/concatenating function of the orginial word2vec models. Then, there goes the problem, which is tackled in his EMNLP'15 paper. The position parameters, which is propotional to the window size, though beneficial, enlarge the complexity of the model and drag the computation. 
+I want to put a simple but straightforward paper in the end of this post, the EMNLP'15 short paper, [**Not All Contexts Are Created Equal: Better Word Representations with Variable Attention**](http://www.cs.cmu.edu/~lingwang/papers/emnlp2015-2.pdf), from Wang Ling. Ling is a smart guy whose paper contains lots of simple yet effective ideas. Another example is his NAACL'15 paper, which I've introduced before [in my previous post](http://yanran.li/peppypapers/2015/05/23/Adapations-and-Variations-of-Word2Vec.html). In his NAACL'15 paper, [**Two/Too Simple Adaptations of Word2Vec for Syntax Problems**](http://www.cs.cmu.edu/~lingwang/papers/naacl2015.pdf), he advocates to induce syntactically-motivated embeddings using word order information. The beauty is that they fulfill this by only keeping the parameter the position information in the averaging/concatenating function of the orginial word2vec models. Then, there goes the problem, which is tackled in his EMNLP'15 paper. The position parameters, which is propotional to the window size, though beneficial, enlarge the complexity of the model and drag the computation. 
 
 ![Attention CBOW](/images/attention-CBOW.png)
 
 To this end and motivated by the attention mechanism, the author put forward the **Attention-Based CBOW** model such that as in the above figure, the central word *south* to predict, is more correlated with those context words in dark colors, the words that should be attended. What is left is to define what kinds of words should be more attended. The author utilizes the word type and the distance (relative position) information, which I considered as a simiplicy of depedency information. The last thing is to alternate the averaging function in CBOW with attention-based (weighted sum) function. Bingo! Simple again!
 
+
+
+### References
+[^1]: Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu. **Recurrent Models of Visual Attention**. 2014. In Advances in Neural Information Processing Systems.
