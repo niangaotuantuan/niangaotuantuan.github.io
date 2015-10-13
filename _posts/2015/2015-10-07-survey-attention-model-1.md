@@ -39,7 +39,7 @@ The second paper comes the ACL’15 paper, [**Encoding Source Language with Conv
 ---------------------------------------
 
 The third paper is also from ACL'15, [**A Hierarchical Neural Autoencoder for Paragraphs and Documents**](https://web.stanford.edu/~jurafsky/pubs/P15-1107.pdf)[^4] from Jiwei Li, Minh-Thang Luong, Dan Jurafsky. In the second model they propose in this paper, they incorporate attention mechanism onto a hierarchical LSTM. By such design, they aim to capture compositions/structures over sentences, which can be seen as one step over sentence-level RNN. However, I have some concerns upon this paper. Although it is reasonable to incorporate attention mechanism onto LSTM, it is relatively unfair to build an autoencoder upon such mechanism. Attention mechanism will become a dramatic and undesirable *copy* mechanism companied by autoencoder, whose target is to re-generate the input with less loss of information. 
-![Hierarchical LSTM with Attention](/images/attention-1-1.png)
+![Hierarchical LSTM with Attention](/images/attention-3.png)
 
 ---------------------------------------
 
