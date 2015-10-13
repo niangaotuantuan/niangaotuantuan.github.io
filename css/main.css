@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #78BEEC; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #178EBF; }
 
 pre {
  white-space: pre-wrap;       /* css-3 */
