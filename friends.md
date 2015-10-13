@@ -9,27 +9,30 @@ image:
 
 
 Here goes my friends pages. They're intellegent and lovely guys who motivate me when I'm feeling low.
-       
-[Tongfei Chan's **Blog**](http://tongfei.me)
+      
+      
+[Azeril's **Microdust**](http://azeril.me/) - Literature.
 
-[VikingMew's **Blog**](http://blog.vikingmew.me/)
+[Ofey's **Homepage**](http://ofey.me/) - ICTLAS - Word Representation. NLP.
 
-[King's **Landing**](http://kinslover.info/)
+[huangz's **Blog**](http://blog.huangz.me/index.html) - Redis.
 
-[javelinjs's **Blog**](http://yzhi.me/)
+[javelinjs's **Blog**](http://yzhi.me/) - MeidaV - Online Advertising. Machine Learning. 
 
-[R2D2's **Blog**](http://blog.liulixiang.info/)
+[Jiwei Li's **Homepage**](http://web.stanford.edu/~jiweil/) - Stanford - Deep Learning in NLP.
 
-[hetong's **Programet**](http://blog.programet.org/)
+[King's **Landing**](http://kinslover.info/) - Microsoft - Machine Learning. Data Mining.
 
-[Xuening Zhu's **Blog**](http://www.xueningzhu.com/)
+[pluskid's **Free Mind**](http://freemind.pluskid.org/) - MIT - Machine Learning. Deep Learning. Speech & Vision.
 
-[pluskid's **Free Mind**](http://freemind.pluskid.org/)
+[Tong He's **Programet**](http://blog.programet.org/) - SFU - R. Machine Learning.
 
-[huangz's **Blog**](http://blog.huangz.me/index.html)
+[Tongfei Chen's **Blog**](http://tongfei.me) - JHU - NLP.
 
-[Azeril's **Microdust**](http://azeril.me/)
+[VikingMew's **Blog**](http://blog.vikingmew.me/) - UCD - Linguistics. NLG. Parsing.
 
-[Ofey's **Homepage**](http://ofey.me/)
+[Xiaotian (Jason) Dou's **Homepage**](https://sites.google.com/site/douxiaotianjason/) - Cornell - Text Mining on Social Media. 
 
-[Jason's **Homepage**](https://sites.google.com/site/douxiaotianjason/)
+[Xuening Zhu's **Blog**](http://www.xueningzhu.com/) - PKU - R. Statistics.
+
+[Zhiting Hu's **Homepage**](http://www.cs.cmu.edu/~zhitingh/) - CMU - (Large-scale) Machine Learning. 
