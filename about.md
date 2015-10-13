@@ -7,7 +7,7 @@ image:
   feature: bg_about.jpg
 ---
 
-I am **Yanran Li**, a Research Assistant now at PolyU (Hong Kong). See my [resume](/files/CV_Yanran_Li.pdf).
+I am **Yanran Li**, a Research Assistant now at PolyU (Hong Kong). See my [resume](/files/Resume_Yanran_Li.pdf).
 
 On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
 
