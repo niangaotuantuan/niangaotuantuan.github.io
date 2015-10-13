@@ -10,10 +10,10 @@ image:
 
 Here goes my friends pages. They're intellegent and lovely guys who motivate me when I'm feeling low.
       
-      
+
 [Azeril's **Microdust**](http://azeril.me/) - Literature.
 
-[Ofey's **Homepage**](http://ofey.me/) - ICTLAS - Word Representation. NLP.
+[Ofey's **Homepage**](http://ofey.me/) - ICTCLAS - Word Representation. NLP.
 
 [huangz's **Blog**](http://blog.huangz.me/index.html) - Redis.
 
