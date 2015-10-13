@@ -7,7 +7,7 @@ image:
   feature: bg_about.jpg
 ---
 
-I am **Yanran Li**, a Research Assistant now at PolyU (Hong Kong). See my [resume](/files/Resume_Yanran_Li.pdf).
+I am **Yanran Li**, a Research Assistant now at PolyU (Hong Kong). See my [resume](/files/CV_Yanran_Li.pdf).
 
 On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
 
@@ -16,13 +16,13 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 ### Publications
 
 - Yanran Li, Wenjie Li, Fei Sun, and Sujian Li.
-Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf)
+Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf) [[bib]](/files/bibtex/emnlp2015comp.bib)
 
 - Yanran Li, Wenjie Li, and Sujian Li. 
-A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proceedings of ACL, 2015. [[pdf]](/files/acl2015exp.pdf)
+A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proceedings of ACL, 2015. [[pdf]](/files/acl2015exp.pdf) [[bib]](/files/bibtex/acl2015exp.bib)
 
 - Yanran Li and Sujian Li. 
-Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning. Proceedings of COLING, 2014. [[pdf]](/files/coling2014sum.pdf) 
+Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning. Proceedings of COLING, 2014. [[pdf]](/files/coling2014sum.pdf) [[bib]](/files/bibtex/coling2014sum.bib)
 
 ### Book Chapters
 
