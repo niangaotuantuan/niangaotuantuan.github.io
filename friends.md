@@ -17,7 +17,7 @@ Here goes my friends pages. They're intellegent and lovely guys who motivate me 
 
 [huangz's **Blog**](http://blog.huangz.me/index.html) - Redis.
 
-[javelinjs's **Blog**](http://yzhi.me/) - MeidaV - Online Advertising. Machine Learning. 
+[javelinjs's **Blog**](http://yzhi.me/) - MediaV - Online Advertising. Machine Learning. 
 
 [Jiwei Li's **Homepage**](http://web.stanford.edu/~jiweil/) - Stanford - Deep Learning in NLP.
 
