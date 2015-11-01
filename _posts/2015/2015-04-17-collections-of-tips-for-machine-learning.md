@@ -85,3 +85,14 @@ L eon Bottou 写的 Stochastic Gradient Descent Tricks 挺好，做工程也要�
 [**Deep Learning for Vision: Tricks of the Trade**](http://bavm2013.splashthat.com/img/events/46439/assets/34a7.ranzato.pdf)
 
 Marc'Aurelio Ranzato 在 CVPR 上 的 presentation slides/talk（Youtube 等地方可以搜到）。caffe 作者之一贾扬清推荐。涉及到了许多 DL 的调参技巧（在 slides 比较靠后的地方）
+
+[**Optimizing RNN performance**](http://svail.github.io/)
+
+百度 Silicon Valley AI Lab 的分享，现在主要是 GEMM 的性能优化，以后还会有并行 GPU，GRU 和 LSTM 的实现技巧等……
+
+[**Must Know Tips/Tricks in Deep Neural Networks**](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+
+来自 NJU LAMDA 实验室的 Xiu-Shen Wei 的总结，主要集中于 CNN，包括各种数据处理上可能带来的性能和表现的差异。图表丰富，有理有据。
+
+
+
