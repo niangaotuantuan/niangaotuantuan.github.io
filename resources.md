@@ -12,7 +12,7 @@ This page is to collect the publications and related resources of Deep Learning 
 
 It is inspired by the great resource on [*CSE 599 - Advanced in NLP*](http://homes.cs.washington.edu/~yejin/cse599.html).
 
-Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publications-of-Deep-Learning-in-NLP).
+Feel free to pull request on [GitHub](https://github.com/niangaotuantuan/Publications-of-Deep-Learning-in-NLP).
 
 
 
@@ -100,6 +100,7 @@ Feel free to pull request on [Github](https://github.com/niangaotuantuan/Publica
 + [socher's] 
 + [cutting RNN trees] Christian Scheible, Hinrich Schutze. "Cutting Recursive Autoencoder Trees" [pdf](http://arxiv.org/pdf/1301.2811v3.pdf) CoRR abs/1301.2811 (2013)
 + [composition operators, mental-related similarity] Gershman, S. J., & Tenenbaum, J. B. "Phrase similarity in humans and machines". [pdf](http://projects.iq.harvard.edu/files/ccnlab/files/gershmantenenbaum15.pdf) 2015 Proceedings of the 37th Annual Conference of the Cognitive Science Society, Proceedings of the 37th Annual Conference of the Cognitive Science Society.
++ [compositional, feature] Mo Yu, Mark Dredze. "Learning Composition Models for Phrase Embeddings". [pdf](https://aclweb.org/anthology/Q/Q15/Q15-1017.pdf) TACL 3: 227-242 (2015).
 
 ### Sentence Modeling
 
