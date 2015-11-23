@@ -59,7 +59,7 @@ Anyway, this paper is clear and easy followed. Anyone who is unfamiliar with att
 One more step, I want to slide to one attractive slide, in the talk from Professor Ruslan Salakhutdinov, that is, **Multimodal linguistic regularities**. Remember the tipping point of word2vec, *king - man + woman = queen*? That is a kind of linguistic regularities. So, multimodal linguistic regularity will be something like this:
 ![Multimodal linguistic regularities](/images/multimodal_5.png)
 
-Using the intuition in the alignDRAW work, there comes a naive approach to implement such multimodal linguistic regularity. Just replace the word(s) in the caption with strong attention(s), in subject to little change in the attention(s), the $\alpha$(s), and then we can get the "customized" linguistic regularity perseving image. Let's see one "customized" service, the color:
+Using the intuition in the alignDRAW work, there comes a naive approach to implement such multimodal linguistic regularity. Just replace the word(s) in the caption with strong attention(s), in subject to little change in the attention(s), the $$\alpha$$(s), and then we can get the "customized" linguistic regularity perseving image. Let's see one "customized" service, the color:
 ![Multimodal linguistic regularities-color](/images/multimodal_6.png)
 
 As color is the fundamental and thus "simple" element in image task, it is expected to see more interesting "customized" service. So, how about these?
