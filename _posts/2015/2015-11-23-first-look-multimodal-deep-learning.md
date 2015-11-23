@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A First Look at Multi-Modal Deep Learning
-description: On the recent held ACML 2015, Professor Ruslan Salakhutdinov was invited to give a talk about <<**Multi-modal Deep Learning**>>。In this post, I will follow some work from Professor Ruslan Salakhutdinov and his students to have a first look at Multi-modal Deep Learning.
+description: On the recent held ACML 2015, Professor Ruslan Salakhutdinov was invited to give a talk about <<**Multi-modal Deep Learning**>>. In this post, I will follow some work from Professor Ruslan Salakhutdinov and his students to have a first look at Multi-modal Deep Learning.
 
 comments: true
 share: true
