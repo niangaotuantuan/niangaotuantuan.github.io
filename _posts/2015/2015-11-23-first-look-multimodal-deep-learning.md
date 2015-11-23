@@ -94,7 +94,7 @@ With this richer capacity, their approach performs well on hypernym prediction, 
 Now, let's move beyond single image-caption pair. I will introduce a work, focusing on pairing a set of images and dialogue. This ICCV 2015 work[^7], aligns book-movie by using movie shots and series of lines in the book. 
 
 ![Aligning Books and Movies](/images/multimodal_10.png)
-The above picture is the banner of their project page, which depicts the movie <Gone Girl>. In this movie, the heroine's diary plays as the background narrator. This is a perfect example of the alignment between books and movies. To achieve this, this work defines several shots as the movie and corresponding subtitles as dialogue. What also worth mentioning is that as they are handling with sentence-level information, they use the newly proposed Skip-Though Vectors[^8].
+The above picture is the banner of their project page, which depicts the movie <<Gone Girl>>. In this movie, the heroine's diary plays as the background narrator. This is a perfect example of the alignment between books and movies. To achieve this, this work defines several shots as the movie and corresponding subtitles as dialogue. What also worth mentioning is that as they are handling with sentence-level information, they use the newly proposed Skip-Though Vectors[^8].
 
 Finally, such alignment can then be used for shot (image) caption with similarity calculation:
 ![Aligning Books and Movies](/images/multimodal_11.png)
