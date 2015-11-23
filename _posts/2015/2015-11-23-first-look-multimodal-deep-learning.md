@@ -41,7 +41,7 @@ This paper extends and combines two generative neural network models: one is the
 
 Concretely,
 
-First, they extend the DRAW model to be conditional when generating, so that it adapts to a conditional generative model, namely **alignDRAW**. See the upper right part of Figure 2 in their paper, $p(x|y, Z_{1:T})$。Such conditional extension is important for performance. As what they said, 
+First, they extend the DRAW model to be conditional when generating, so that it adapts to a conditional generative model, namely **alignDRAW**. See the upper right part of Figure 2 in their paper, $$p(x|y, Z_{1:T})$$。Such conditional extension is important for performance. As what they said, 
 ![](/images/multimodal_4.png)
 
 Second, they combine alignDRAW with GAN[^4] to take place of the inference part. And further sharpen units are added to reduce blurrness of the images (scences). Note that the "sharpen" units are nothing to do with semantic understanding or altering. Rather, they simply function as literally "sharpen". 
