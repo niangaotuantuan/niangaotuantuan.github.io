@@ -54,6 +54,7 @@ Anyway, this paper is clear and easy followed. Anyone who is unfamiliar with att
 
 
 -------------------------
+
 ##Multimodal linguistic regularities
 
 One more step, I want to slide to one attractive slide, in the talk from Professor Ruslan Salakhutdinov, that is, **Multimodal linguistic regularities**. Remember the tipping point of word2vec, *king - man + woman = queen*? That is a kind of linguistic regularities. So, multimodal linguistic regularity will be something like this:
@@ -71,6 +72,7 @@ Note that attention is only a naive way, maybe too naive, to implement the multi
 
 
 ------------------
+
 ##Order-Embeddings Of Images And Language
 
 So, is there some work that directs in structure-aware image captioning? The answer is yes. Another ICLR 2016 submssion[^6] is on their way. 
@@ -89,6 +91,7 @@ With this richer capacity, their approach performs well on hypernym prediction, 
 
 
 ------------------------
+
 ##Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books
 
 Now, let's move beyond single image-caption pair. I will introduce a work, focusing on pairing a set of images and dialogue. This ICCV 2015 work[^7], aligns book-movie by using movie shots and series of lines in the book. 
@@ -101,6 +104,7 @@ Finally, such alignment can then be used for shot (image) caption with similarit
 
 
 ------------------
+
 ##Deep Compositional Captioning: Describing Novel Object Categories without Paired Training Data
 
 As mentioned before, although Deep Learning has proven effective in image object recognition (such as ImageNet task), to discriminate dog vs. cat seems too be hard under multi-modal settings.
@@ -114,6 +118,7 @@ This work is straightforward yet ad-hoc. I will look forward to further work of 
 
 
 --------------------
+
 ##Exploring Models and Data for Image Question Answering
 
 The last paper I will include in this post is something close to the *ultimate goal* in Multi-modal Deep Learning, a paper from Toronto University (again), accepted by NIPS 15[^10].
