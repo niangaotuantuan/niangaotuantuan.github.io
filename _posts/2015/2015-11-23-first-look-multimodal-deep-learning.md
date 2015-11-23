@@ -20,6 +20,7 @@ On the recent held ACML 2015, [Professor Ruslan Salakhutdinov](http://www.cs.tor
 -------------------------
 
 ## Background
+
 I will begin with the hot direction in Multi-modal Deep Learning, that is, **image caption generation**. It is relatively understandable of the idea behind image caption generation, similar to Machine Translation. The latter, i.e., MT, is to translate source language into another target language, whereas image caption generation is to “translate” image into caption or description. Therefore, the current hottest model in MT, i.e., the attention alignment models, also enjoys their popularity in image captioning area.
 
 That being said, image caption has its uniqueness and thus its distinguished difficulty. For example, the granularity problem, which can be vividly illustrated by two following figures:
@@ -54,6 +55,7 @@ Anyway, this paper is clear and easy followed. Anyone who is unfamiliar with att
 
 -------------------------
 ##Multimodal linguistic regularities
+
 One more step, I want to slide to one attractive slide, in the talk from Professor Ruslan Salakhutdinov, that is, **Multimodal linguistic regularities**. Remember the tipping point of word2vec, *king - man + woman = queen*? That is a kind of linguistic regularities. So, multimodal linguistic regularity will be something like this:
 ![Multimodal linguistic regularities](/images/multimodal_5.png)
 
@@ -70,6 +72,7 @@ Note that attention is only a naive way, maybe too naive, to implement the multi
 
 ------------------
 ##Order-Embeddings Of Images And Language
+
 So, is there some work that directs in structure-aware image captioning? The answer is yes. Another ICLR 2016 submssion[^6] is on their way. 
 
 It follows the line of relation embedding, but differs in the richness of relation. Most previous work of relation embedding limit in symmetric or binary relation. Motivated by this, this work[^6] aims at modeling asymmetric and hierarchical orders to capture **visual-semantic hierarchy**, which exists broadly among objects, caption words and sentences.
@@ -87,6 +90,7 @@ With this richer capacity, their approach performs well on hypernym prediction, 
 
 ------------------------
 ##Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books
+
 Now, let's move beyond single image-caption pair. I will introduce a work, focusing on pairing a set of images and dialogue. This ICCV 2015 work[^7], aligns book-movie by using movie shots and series of lines in the book. 
 
 ![Aligning Books and Movies](/images/multimodal_10.png)
@@ -98,6 +102,7 @@ Finally, such alignment can then be used for shot (image) caption with similarit
 
 ------------------
 ##Deep Compositional Captioning: Describing Novel Object Categories without Paired Training Data
+
 As mentioned before, although Deep Learning has proven effective in image object recognition (such as ImageNet task), to discriminate dog vs. cat seems too be hard under multi-modal settings.
 
 To this end, one fresh work[^9] motivates to bridge the gap between single-modal object recognition to multi-modal image captioning. In this work, the authors argue that the image-caption pair training sets are far smaller than single image object recognition sets. Following the transfer learning, they develop the so-called **D**eep **C**ompositional **C**aptioner (DCC) model, which consists of two seperate models, i.e., object lexical classifier and language model, as well as one intermediate multi-modal layer. The separate lexical classifier is designed to utilize the single object recognition model, such as those trained solely on image sets, e.g., ImageNet. Thus, the knowledge learned in the separate classifier can be transfered to multi-modal DCC via the intermediate layer. They give an example to demonstrate the power of such composition:
@@ -110,6 +115,7 @@ This work is straightforward yet ad-hoc. I will look forward to further work of 
 
 --------------------
 ##Exploring Models and Data for Image Question Answering
+
 The last paper I will include in this post is something close to the *ultimate goal* in Multi-modal Deep Learning, a paper from Toronto University (again), accepted by NIPS 15[^10].
 
 So, why I call this someone close to the *ultimate goal*? What is the *ultimate goal*? In my mind, multi-modal, especially image-text, is (still) aimed at understanding the world. The text, the language we use to describe the world, and the image, the snapshots of the world, are often corresponded to represent the information. To understand the world, we need to understand the language, and we also need to understand the image. To evaluate and judge whether the models are able to understand the language, researchers design NLP tasks, such as question answering. Similarly, one can do image question answering to asset the multi-modal capacity. This line has attracted some researchers since 2014 and the NIPS 15 paper I will introduce here is one among them.
@@ -126,6 +132,7 @@ In the last, don't forget that there still exists various types of multi-modal b
 
 
 ###References
+
 [^1]: P. Young, A. Lai, M. Hodosh, J. Hockenmaier. **From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions**. 2014. TACL.
 [^2]: Elman Mansimov, Emilio Parisotto, Jimmy Lei Ba & Ruslan Salakhutdinov. **Generating Images From Captions With Attention**. 2016. In submission to ICLR.
 [^3]: Karol Gregor, Ivo Danihelka, Alex Graves, et al. **DRAW: A Recurrent Neural Network For Image Generation**. 2015. arXiv pre-print.
