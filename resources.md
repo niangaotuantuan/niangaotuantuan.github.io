@@ -134,6 +134,9 @@ Distributed Semantics." [pdf](http://arxiv.org/pdf/1404.4641v1.pdf) ACL 2014
 + Chaochao Huang, Xipeng Qiu, Xuanjing Huang, "Text Classification with Document Embeddings" [pdf](http://link.springer.com/chapter/10.1007%2F978-3-319-12277-9_12) Springer 2014
 + Le, Quoc V., and Tomas Mikolov. "Distributed Representations of Sentences and
 Documents." ICML (2014).
++ [document-level language model] Rui Lin, Shujie Liu, Muyun Yang, et al. "Hierarchical Recurrent Neural Network for Document Modeling". 2015. In Proceedings of EMNLP. [[pdf]](http://www.aclweb.org/anthology/D15-1106)
++ [convolutional] Duyu Tang, Bing Qin, and Ting Liu. "Document Modeling with Gated Recurrent Neural Network for Sentiment Classification". 2015. In Proceedings of EMNLP. [[pdf]](http://ir.hit.edu.cn/~dytang/paper/emnlp2015/emnlp2015.pdf)
++ [information flow, attention] Yangfeng Ji, Trevor Cohn, Lingpeng Kong, et al. "Document Context Language Models". 2015. arXiv preprint. In submission to ICLR 2016. [[pdf]](http://arxiv.org/abs/1511.03962)
 
 
 
@@ -156,6 +159,8 @@ Documents." ICML (2014).
 + [sentence vector] Ryan Kiros, Yukun Zhu, Ruslan Salakhutdinov, Richard S. Zemel, et al. "Skip-Thought Vectors". [pdf](http://arxiv.org/abs/1506.06726) To appear in NIPS 2015.
 + [state embedding, character] Miguel Ballesteros, Chris Dyer and Noah A. Smith, "Improved Transition-Based Parsing by Modeling Characters instead of Words with LSTMs" [pdf](http://arxiv.org/pdf/1508.00657.pdf) EMNLP 2015
 + [no stacked, highway networks, character, CNN with LSTM] Yoon Kim, Yacine Jernite, David Sontag, Alexander M. Rush "Character-Aware Neural Language Models" [pdf](http://arxiv.org/pdf/1508.06615v2.pdf) arXiv pre-print 2015
++ [document-level language model] Rui Lin, Shujie Liu, Muyun Yang, et al. "Hierarchical Recurrent Neural Network for Document Modeling". 2015. In Proceedings of EMNLP. [[pdf]](http://www.aclweb.org/anthology/D15-1106)
++ [information flow, attention] Yangfeng Ji, Trevor Cohn, Lingpeng Kong, et al. "Document Context Language Models". 2015. arXiv preprint. In submission to ICLR 2016. [[pdf]](http://arxiv.org/abs/1511.03962)
 
 #### CNNs: convolution neural networks for language
 + [convoluting from character-level to doc-level] Xiang Zhang, Yann LeCun. "Text Understanding from Scratch" [pdf](http://arxiv.org/pdf/1502.01710v1.pdf) 
