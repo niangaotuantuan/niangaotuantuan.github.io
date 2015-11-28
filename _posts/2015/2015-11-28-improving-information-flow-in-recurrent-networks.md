@@ -20,6 +20,7 @@ tags:
 The LSTM architecture with the *gate* mechanism, is designed firstly to tackle with the "gradient vanishing" problem, a major problem in standard RNNs. It is that, error gradients vanish exponentially quickly with the size of the time lag between important events, as first realized in 1991 [^1][^2]. With LSTM forget gates, however, when error values are back-propagated from the output, the gradient does not vanish if the forget gate is on, which means that activation close to 1.0. Since the forget gate activation is never larger than 1.0, the gradient can't explode either. Thus, LSTM can prevent "gradient vanishing" problem by preventing any changes to the contents of the cell over many cycles. Nevertheless, there still remains similar problems about information flow in LSTM. In this post, I will introduce some work that addresses these problems. 
 
 -------------------------
+
 ## LSTM and their variants
 
 ### Training Very Deep Networks (Highway networks)
@@ -70,6 +71,7 @@ The comparison experiments are conducted through variable control and analysized
 
 
 -------------
+
 ## Sequence to Sequence Learning and their variants
 
 Let's move to Seq2Seq Learning where LSTMs are widely adopted. Seq2Seq framework has been prefered by various tasks, such as Machine Translation, Image Captioning. It is seemingly simple yet mysterious. *First*, does it really own the power of "handling long term memory/information"? *Second*, if the first answer is yes, how to maximize such power? *Third*, how can we accelerate the information path between encoder and decoder in Seq2Seq learning? In the below, I will introduce several relative work under review by ICLR 2016.
@@ -87,6 +89,7 @@ Additionally, by using visulization techniques, this work analizes the gate acti
 
 
 ---------------------
+
 ### Generating Sentences From a Continuous Spaces
 
 in submission to ICLR 2016, under review
@@ -105,6 +108,22 @@ This work also applies highway networks[^3] in the experiments.
 
 
 
+----------------
+
+### Alternative Structures For Character-Level RNNs
+
+The following two papers I want to mention motivate from the information flow improvment between encoder and decoder. The first work, is done by Facebook AI Team[^11].
+
+Although char-RNN is considered beneficial for modeling subword information, it has less input/output parameters according to the smaller vocabulary size. Thus, the only way to improve its capacity is to deepen and widen the hidden layers, resulting in overfitting and expensive computation.
+
+![Alternatives for char-RNN](/images/infoflow_7.png)
+The solutions, by this work, are simple. *First*, leveraging word-level information, that is, condition on words in the Section 3. It is implemented by a hybrid model with a char-RNN and word-RNN (W-RNN). Then, the faster character-level network is conditioned on the hidden representations of a slower word-level one. The *second* solution is to directly modify the output parameters, the classifier in char-RNN. By incorporating context information in classifier, the output at every time step t depends not only on the hidden representation , but also on the input history.
+
+The deeper intuition behind these two modifications is to utilize the existed yet unexplored information in the inner mechanism of RNN.
+
+
+
+
 
 ###References
 
@@ -118,5 +137,6 @@ This work also applies highway networks[^3] in the experiments.
 [^8]: Klaus Greff, Rupesh Kumar Srivastava, Jan Koutník, et al. **LSTM: A Search Space Odyssey**. 2015. arXiv preprint arXiV:1503.04069.
 [^9]: Andrej Karpathy, Justin Johnson, Li Fei-Fei. **Visualizing and Understanding Recurrent Networks**. In submission to ICLR 2016.
 [^10]: Luke Vilnis, Andrew McCallum. **Word Representations via Gaussian Embedding**. 2015. In Proceedings of ICLR.
+[^11]: Piotr Bojanowski, Armand Joulin, Tomas Mikolov. **Alternative Structures For Character-Level RNNs**. In submission to ICLR 2016.
 
 
