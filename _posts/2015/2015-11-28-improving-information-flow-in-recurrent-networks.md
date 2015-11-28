@@ -123,6 +123,22 @@ The deeper intuition behind these two modifications is to utilize the existed ye
 
 
 
+-----------------------
+
+### Document Context Language Models
+
+The second work to modify information flow between encoder and decoder, is also the last work, I want to mention in this post. It aims at improving the coherence in document representation^[^12].
+
+Rather than adding latent variable into networks like what is done in the VAE-RNNLM[^6], this work enhances the information flow between encoder and decoder by adding additional paths for the previous history information in encoder. The model therefore introduces computational “short-circuits” for cross-sentence information. And they also use attention mechanism for further extension.
+![DCLM](/images/infoflow_8.png)
+
+
+-----------------------
+
+There are also other interesting work modifying Seq2Seq framework in task-specific fasion, like generating rates and reviews together by char-LSTM[^13], and exploring abilities of multi-task learning[^14].
+
+
+
 
 
 ###References
@@ -138,5 +154,7 @@ The deeper intuition behind these two modifications is to utilize the existed ye
 [^9]: Andrej Karpathy, Justin Johnson, Li Fei-Fei. **Visualizing and Understanding Recurrent Networks**. In submission to ICLR 2016.
 [^10]: Luke Vilnis, Andrew McCallum. **Word Representations via Gaussian Embedding**. 2015. In Proceedings of ICLR.
 [^11]: Piotr Bojanowski, Armand Joulin, Tomas Mikolov. **Alternative Structures For Character-Level RNNs**. In submission to ICLR 2016.
-
+[^12]: Yangfeng Ji, Trevor Cohn, Lingpeng Kong, et al. **Document Context Language Models**. In submission to ICLR 2016.
+[^13]: Zachary C. Lipton, Sharad Vikram, Julian McAuley. **Capturing Meaning In Product Reviews with Character-level Generative Text Models**. In submission to ICLR 2016.
+[^14]: Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, et al. **Multi-task Sequence to Sequence Learning**. In submission to ICLR 2016. 
 
