@@ -19,7 +19,7 @@ I was an undergraduate from the Centre of Information Science, School of Electro
 Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf) [[bib]](/files/bibtex/emnlp2015comp.bib)
 
 - Yanran Li, Wenjie Li, and Sujian Li. 
-A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proceedings of ACL, 2015. [[pdf]](/files/acl2015exp.pdf) [[bib]](/files/bibtex/acl2015exp.bib)
+A Hierarchical Knowledge Representation for Expert Finding on Social Media. Proceedings of ACL, 2015. [[pdf]](/files/acl2015exp.pdf) [[poster]](/files/acl2015exp_poster.pdf) [[bib]](/files/bibtex/acl2015exp.bib)
 
 - Yanran Li and Sujian Li. 
 Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-based Semi-supervised Learning. Proceedings of COLING, 2014. [[pdf]](/files/coling2014sum.pdf) [[bib]](/files/bibtex/coling2014sum.bib)
