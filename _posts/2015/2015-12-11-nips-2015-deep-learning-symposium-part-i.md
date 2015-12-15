@@ -40,6 +40,7 @@ Let's get started with two papers about character-level language modeling. It is
 The first one, **Character-aware Neural Language Models**[^1], accepted by AAAI 2016, is highly recommended. It is a great combination of NLP and DL, informative and thought-provoking. Their model is composed by a character-level input for CNN whose output is then fed into RNNLM. What also worth mentioning here is that at final prediction, they still use word-level information. That means, they maintain word embeddings as output. It seems to some extent tricky. But with a second glance, I think it is meaningful as what they are really learning is the boundary of words.
 
 > In this work, we propose a language model that leverages subword information through a character-level convolutional neural network (CNN), whose output is used as an input to a recurrent neural network language model (RNNLM). 
+
 ![](/images/nips15_dl_1.png)
 
 Now, I will list several the thought-provoking findings in this paper. *First*, they argue that only one convolutional + max-over-time pooling is enough, which is contracted to the stacked CNN for sentence modeling. 
@@ -57,7 +58,7 @@ My cent here is that, is their results demonstrating that the interactions intro
 Now move to the second character-level paper. This is very different from the above one.
 
 This article is the first to apply ConvNets only on characters. They use very classical ConvNet settings, temporal convlutional and temporal max-pooling. They also truncate their model into simpler NLP settings, such as they neglect the variant length problems for convolutional networks. They just truncate them when exceeded. Another difference for classical NLP CNN is that they reverse the input sequence as what is often done in recurrent networks. The character quantization order is backward so that the latest reading on characters is always placed near the begin of the output, making it easy for fully connected layers to associate weights with the latest reading.
-![](/images/nips15_dl_1.png)
+![](/images/nips15_dl_2.png)
 
 The experimental details, findings in these two papers are to some extent mutually exclusive. In other words, character-level language models remain open for the research field. I expect to see more literature in this field.
 
