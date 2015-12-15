@@ -3,6 +3,9 @@ layout: post
 title: NIPS 2015 Deep Learning Symposium Part I
 description: This post introduces my notes and thoughts on NIPS 2015 Deep Learning Symposium. Due to page limit, it will be separated into two posts.
 
+image:
+  feature: nips15_dl_bg.jpeg
+
 comments: true
 share: true
 
