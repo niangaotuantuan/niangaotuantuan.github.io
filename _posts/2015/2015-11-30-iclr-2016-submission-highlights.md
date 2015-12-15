@@ -200,3 +200,4 @@ The deeper intuition behind these two modifications is to utilize the existed ye
 [^14]: Mohit Iyyer, Varun Manjunatha, Jordan Boyd-Graber, et al. **Deep Unordered Composition Rivals Syntactic Methods for Text Classification**. 2015. In proceedings of ACL.
 
 
+
