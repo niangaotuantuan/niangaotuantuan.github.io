@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Highway Networks and Deep Residual Networks
-description: Recently, a breakthrough news spread over social networks. In the ImageNet challenge, the Microsoft team won first place in all three categories it entered: classification, localization and detection. Its system was better than the other entrants by a large margin. In the Microsoft Common Objects in Context challenge, also known as MS COCO, the Microsoft team won first place for image detection and segmentation. The MSRA author Kaiming He, named their model as Deep Residual Network (ResNet). In this post, I will explain this ResNet as a special case of Highway Networks, which has been proposed before. Both of the work is amazing and thought-provoking.
+title: In this post, I will explain this ResNet as a special case of Highway Networks, which has been proposed before. Both of the work is amazing and thought-provoking.
 
 comments: true
 share: true
