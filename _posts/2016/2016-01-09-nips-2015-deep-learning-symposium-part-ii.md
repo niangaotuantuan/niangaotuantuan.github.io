@@ -21,13 +21,13 @@ tags:
 
 The part II of my notes and thoughts on NIPS 2015 Deep Learning Symposium. Followings are the papers included in this post:
 
+
 1. **Early stopping is nonparametric variational inference**[^1]
 2. **Natural neural networks**[^2]
 3. **Dropout as a Bayesian approximation: Representing model uncertainty in deep learning**[^3]
 4. **Neural Turing Machines**[^4]
 5. **End-to-end memory networks**[^5]
 6. **Grid long-short term memory**[^6]
-
 
 
 -------------------
