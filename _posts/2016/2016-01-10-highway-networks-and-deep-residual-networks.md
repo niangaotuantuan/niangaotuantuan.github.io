@@ -1,6 +1,8 @@
 ---
 layout: post
-title: In this post, I will explain this ResNet as a special case of Highway Networks, which has been proposed before. Both of the work is amazing and thought-provoking.
+title: Highway Networks and Deep Residual Networks
+
+description: Recently, a breakthrough news spread over social networks. In this post, I will explain this ResNet as a special case of Highway Networks, which has been proposed before. Both of the work is amazing and thought-provoking.
 
 comments: true
 share: true
