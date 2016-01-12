@@ -20,6 +20,7 @@ tags:
 ---
 
 The part II of my notes and thoughts on NIPS 2015 Deep Learning Symposium. Followings are the papers included in this post:
+
 1. **Early stopping is nonparametric variational inference**[^1]
 2. **Natural neural networks**[^2]
 3. **Dropout as a Bayesian approximation: Representing model uncertainty in deep learning**[^3]
