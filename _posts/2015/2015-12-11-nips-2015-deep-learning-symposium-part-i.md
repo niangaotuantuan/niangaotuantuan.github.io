@@ -19,7 +19,7 @@ tags:
 - paper
 ---
 
-This post introduces my notes and thoughts on NIPS 2015 Deep Learning Symposium. Due to page limit, it will be separated into two posts. Followings are the papers included in this post:
+This post introduces my notes and thoughts on NIPS 2015 Deep Learning Symposium. Due to page limit, it will be separated into two posts. [Click here](http://yanran.li/peppypapers/2016/01/09/nips-2015-deep-learning-symposium-part-ii.html) to check the second part. Followings are the papers included in this post:
 
 1. **Character-aware Neural Language Models**[^1]
 2. **Character-level Convolutional Networks for Text Classification**[^2]
