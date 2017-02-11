@@ -7,7 +7,7 @@ image:
   feature: bg_about.jpg
 ---
 
-I am **Yanran Li**, a first-year PhD student at PolyU (Hong Kong). See my [resume](/files/Resume_Yanran_Li.pdf).
+I am **Yanran Li**, a first-year PhD student at PolyU (Hong Kong). My supervisor is [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). See my [resume](/files/Resume_Yanran_Li.pdf).
 
 On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
 
@@ -30,7 +30,7 @@ Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-b
 ### Book Chapters
 
 - Yanran Li.
-Natural Language Processing is Everywhere. Book Chapter. Post & Telecom Press, July 2015. 
+Natural Language Processing is Everywhere. Book Chapter. Post & Telecom Press, July 2015. [[Kindle eBook]](https://www.amazon.cn/%E7%A7%91%E5%AD%A6%E7%9A%84%E6%9E%81%E8%87%B4-%E6%BC%AB%E8%B0%88%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-%E9%9B%86%E6%99%BA%E4%BF%B1%E4%B9%90%E9%83%A8/dp/B01AHPD2M0)
 
 
 ### misc
@@ -44,7 +44,7 @@ As I didn't want my about page to be a direct result of boredom, I concluded tha
 
 ### Traveling photos
 
-Traveling in Italy made my summer. 
+Traveling in Italy made my summer in 2015. 
 
 Genova is a small city with a fantastic Acquarium. 
 ![Photos taken in Genova, Italy](/images/album/genova_1.JPG)
