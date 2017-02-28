@@ -13,6 +13,10 @@ On this blog, I mostly write about Natural Language Processing, Deep Learning, S
 
 Before PolyU, I got my Bachelor degree from the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). 
 
+### Pre-prints
+
+- Tong Che\*, Yanran Li\*,  Ruixiang Zhang\*, R Devon Hjelm, Wenjie Li, Yangqiu Song, Yoshua Bengio. Maximum-Likelihood Augmented Discrete Generative Adversarial Networks. arXiv preprint 2017. *\* indicates equal contribution*. [[arXiv]](https://arxiv.org/abs/1702.07983) [[bib]](/files/bibtex/maligan.bib)
+
 ### Publications
 
 - Tong Che\*, Yanran Li\*, Athul Jacob, Yoshua Bengio, and Wenjie Li. Mode Regularized
