@@ -19,8 +19,10 @@ Before PolyU, I got my Bachelor degree from the Centre of Information Science, S
 
 ### Publications
 
+- Jianbo Ye, Yanran Li, Zhaohui Wu, James Z. Wang and Jia Li. Determining Gains Acquired from Word Embedding Quantitatively using Discrete Distribution Clustering. ACL 2017. To appear.
+
 - Tong Che\*, Yanran Li\*, Athul Jacob, Yoshua Bengio, and Wenjie Li. Mode Regularized
-Generative Adversarial Networks. ICLR, 2017. To appear. *\* indicates equal contribution*. [[pdf]](/files/iclr2017mdgan.pdf) [[arXiv]](https://arxiv.org/abs/1612.02136) [[bib]](/files/bibtex/iclr2017mdgan.bib)
+Generative Adversarial Networks. ICLR 2017. To appear. *\* indicates equal contribution*. [[pdf]](/files/iclr2017mdgan.pdf) [[arXiv]](https://arxiv.org/abs/1612.02136) [[bib]](/files/bibtex/iclr2017mdgan.bib)
 
 - Yanran Li, Wenjie Li, Fei Sun, and Sujian Li.
 Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf) [[bib]](/files/bibtex/emnlp2015comp.bib)
