@@ -40,6 +40,11 @@ Query-focused Multi-Document Summarization: Combining a Topic Model with Graph-b
 - Yanran Li.
 Natural Language Processing is Everywhere. Book Chapter. Post & Telecom Press, July 2015. [[Kindle eBook]](https://www.amazon.cn/%E7%A7%91%E5%AD%A6%E7%9A%84%E6%9E%81%E8%87%B4-%E6%BC%AB%E8%B0%88%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-%E9%9B%86%E6%99%BA%E4%BF%B1%E4%B9%90%E9%83%A8/dp/B01AHPD2M0)
 
+### Presentations and Invited Talks
+
+- 2017-05-21. Head First Generative Adversarial Networks From Theoretical View. Beijing. [[slides]](/files/pre/HeadFirstGAN_theory.pdf)
+- 2017-05-05. Tackling the Graident Issues In Generative Adversarial Networks. The First CUHK Deep Learning Symposium. Hong Kong. [[flyer]](http://dl.ee.cuhk.edu.hk/fp/POSTER.pdf) [[slides]](/files/pre/TacklingGAN.pdf)
+
 
 ### misc
 
