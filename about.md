@@ -7,7 +7,7 @@ image:
   feature: bg_about.jpg
 ---
 
-I am **Yanran Li**, a first-year PhD student at PolyU (Hong Kong). My supervisor is [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). See my [resume](/files/Resume_Yanran_Li.pdf).
+I am **Yanran Li**, a second-year PhD student at PolyU (Hong Kong). My supervisor is [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). See my [resume](/files/Resume_Yanran_Li.pdf). My research interests are mainly about language generation and general Deep Learning in NLP.
 
 On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
 
@@ -19,9 +19,11 @@ Before PolyU, I got my Bachelor degree from the Centre of Information Science, S
 
 ### Publications
 
-- Jianbo Ye, Yanran Li, Zhaohui Wu, James Z. Wang, Wenjie Li and Jia Li. Determining Gains Acquired from Word Embedding Quantitatively using Discrete Distribution Clustering. ACL 2017. To appear. [[pdf]](/files/acl2017gains.pdf)
+- Yanran Li, Hui Su, Xiaoyu Shen, and Wenjie Li. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. To appear.
 
-- Xiaoyu Shen, Hui Su, Yanran Li, Wenjie Li, Shuzi Niu, and Akiko Aizawa. A Conditional Variational Framework for Dialog Generation. ACL 2017. To appear.
+- Jianbo Ye, Yanran Li, Zhaohui Wu, James Z. Wang, Wenjie Li and Jia Li. Determining Gains Acquired from Word Embedding Quantitatively using Discrete Distribution Clustering. ACL 2017. [[pdf]](/files/acl2017gains.pdf)
+
+- Xiaoyu Shen, Hui Su, Yanran Li, Wenjie Li, Shuzi Niu, and Akiko Aizawa. A Conditional Variational Framework for Dialog Generation. ACL 2017. [[pdf]](/files/acl2017conditionalvae.pdf) [[arXiv]](https://arxiv.org/abs/1705.00316)
 
 - Tong Che\*, Yanran Li\*, Athul Jacob, Yoshua Bengio, and Wenjie Li. Mode Regularized
 Generative Adversarial Networks. ICLR 2017. To appear. *\* indicates equal contribution*. [[pdf]](/files/iclr2017mdgan.pdf) [[arXiv]](https://arxiv.org/abs/1612.02136) [[bib]](/files/bibtex/iclr2017mdgan.bib)
@@ -107,3 +109,5 @@ Especially the morning and the river I lived near, it reminds me of the pictures
 <div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
 
 [^1]: Example: *domain.com/category-name/post-title* -->
+
+
