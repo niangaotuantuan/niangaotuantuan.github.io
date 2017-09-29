@@ -9,9 +9,9 @@ image:
 
 I am **Yanran Li**, a second-year PhD student at PolyU (Hong Kong). My supervisor is [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). See my [resume](/files/Resume_Yanran_Li.pdf). My research interests are mainly about language generation and general Deep Learning in NLP.
 
-On this blog, I mostly write about Natural Language Processing, Deep Learning, Social Network Analysis, Applied Machine Learning and Optimization and issues with *R* language.
+On this blog, I mostly write about Natural Language Processing, Machine Conversation, Deep Learning, and issues with *R* language.
 
-Before PolyU, I got my Bachelor degree from the Centre of Information Science, School of Electronics Engineering and Computer Science(EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). 
+Before PolyU, I got my Bachelor degree from the Centre of Information Science, School of Electronics Engineering and Computer Science (EECS), Peking University. I work with [Prof. Sujian Li](http://www.icl.pku.edu.cn/member/lisujian/maincontent.htm) and [Prof. Wenjie Li](http://www4.comp.polyu.edu.hk/~cswjli/). 
 
 ### Pre-prints
 
@@ -19,14 +19,16 @@ Before PolyU, I got my Bachelor degree from the Centre of Information Science, S
 
 ### Publications
 
-- Yanran Li, Hui Su, Xiaoyu Shen, and Wenjie Li. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. To appear.
+- Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. To appear. [[project page]](/dailydialog) [[pdf]](/files/ijcnlp2017dailydialog.pdf) [[dataset]](/files/ijcnlp_dailydialog.zip)
 
 - Jianbo Ye, Yanran Li, Zhaohui Wu, James Z. Wang, Wenjie Li and Jia Li. Determining Gains Acquired from Word Embedding Quantitatively using Discrete Distribution Clustering. ACL 2017. [[pdf]](/files/acl2017gains.pdf)
 
 - Xiaoyu Shen, Hui Su, Yanran Li, Wenjie Li, Shuzi Niu, and Akiko Aizawa. A Conditional Variational Framework for Dialog Generation. ACL 2017. [[pdf]](/files/acl2017conditionalvae.pdf) [[arXiv]](https://arxiv.org/abs/1705.00316)
 
+- Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei, and Yanran Li. AttSum: Joint Learning of Focusing and Summarization with Neural Attention. In Proceedings of COLING. 2016. [[arXiv]](https://arxiv.org/abs/1604.00125) 
+
 - Tong Che\*, Yanran Li\*, Athul Jacob, Yoshua Bengio, and Wenjie Li. Mode Regularized
-Generative Adversarial Networks. ICLR 2017. To appear. *\* indicates equal contribution*. [[pdf]](/files/iclr2017mdgan.pdf) [[arXiv]](https://arxiv.org/abs/1612.02136) [[bib]](/files/bibtex/iclr2017mdgan.bib)
+Generative Adversarial Networks. ICLR 2017. *\* indicates equal contribution*. [[pdf]](/files/iclr2017mdgan.pdf) [[arXiv]](https://arxiv.org/abs/1612.02136) [[bib]](/files/bibtex/iclr2017mdgan.bib)
 
 - Yanran Li, Wenjie Li, Fei Sun, and Sujian Li.
 Component-Enhanced Chinese Character Embeddings. Proceedings of EMNLP, 2015. [[pdf]](/files/emnlp2015comp.pdf) [[bib]](/files/bibtex/emnlp2015comp.bib)
