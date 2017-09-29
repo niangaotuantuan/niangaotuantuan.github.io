@@ -2,7 +2,7 @@
 layout: page
 permalink: /dailydialog/
 title: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset
-tags: [datsets]
+tags: [dailydialog]
 image:
   feature: bg_guest.jpg
 ---
