@@ -1,5 +1,5 @@
 title:            Yanran's Attic
-description:      "Natural Language Processing, Semantic Embedding, Machine learning, deep learning"
+description:      "Natural Language Processing, Semantic Embedding, Machine Conversation, Deep Learning"
 disqus_shortname: yanranli
 # Your site's domain goes here. When working locally use localhost server leave blank
 # PS. If you set this wrong stylesheets and scripts won't load and most links will break.
@@ -10,7 +10,7 @@ url:              http://yanran.li
 owner:
   name:           Yanran Li
   avatar:         avatar.jpg
-  bio:            "1st year PhD student"
+  bio:            "2nd year PhD student"
   email:          yanranli.summer@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
