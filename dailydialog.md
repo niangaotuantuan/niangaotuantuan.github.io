@@ -4,7 +4,7 @@ permalink: /dailydialog/
 title: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset
 tags: [dailydialog]
 image:
-  feature: bg_guest.jpg
+  feature: bg_about.jpg
 ---
 
 **DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset**
