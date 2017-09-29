@@ -15,7 +15,7 @@ We develop a high-quality multi-turn dialog dataset, **DailyDialog**, which is i
 
 **Download**
 
-- For downloading, please follow the copyright declarement and click: [DailyDialog.zip](/files/ijcnlp_dailydialog.zip)
+- For downloading, please follow the copyright declaration and click: [DailyDialog.zip](/files/ijcnlp_dailydialog.zip)
 
 **Citation**
 
