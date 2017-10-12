@@ -19,7 +19,7 @@ Before PolyU, I got my Bachelor degree from the Centre of Information Science, S
 
 ### Publications
 
-- Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. To appear. [[project page]](/dailydialog) [[pdf]](/files/ijcnlp2017dailydialog.pdf) [[dataset]](/files/ijcnlp_dailydialog.zip)
+- Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. To appear. [[project page]](/dailydialog) [[pdf]](/files/ijcnlp2017dailydialog.pdf) [[arXiv]](https://arxiv.org/abs/1710.03957) [[dataset]](/files/ijcnlp_dailydialog.zip)
 
 - Jianbo Ye, Yanran Li, Zhaohui Wu, James Z. Wang, Wenjie Li and Jia Li. Determining Gains Acquired from Word Embedding Quantitatively using Discrete Distribution Clustering. ACL 2017. [[pdf]](/files/acl2017gains.pdf)
 
