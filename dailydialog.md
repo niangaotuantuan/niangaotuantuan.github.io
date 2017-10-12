@@ -39,10 +39,10 @@ The words in Italic are speaker B's own ideas that are new for the other speaker
 
 - We appreciate your citation if you find our dataset is beneficial.
 
-- Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017.
+- Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017. [[pdf]](/files/ijcnlp2017dailydialog.pdf) [[dataset]](/files/ijcnlp_dailydialog.zip)
 
 > @InProceedings{li2017dailydialog,  
->                author    = {Li, Yanran  and  Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},  
+>>>>>>>>>                author    = {Li, Yanran  and  Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},  
 >                title     = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},  
 >                booktitle = {Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)},  
 >                year      = {2017}  
