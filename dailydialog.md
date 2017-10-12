@@ -11,7 +11,7 @@ image:
 
 We develop a high-quality multi-turn dialog dataset, **DailyDialog**, which is intriguing in several aspects. The language is human-written and less noisy. The dialogues in the dataset reflect our daily communication way and cover various topics about our daily life. We also manually label the developed dataset with communication intention and emotion information. Then, we evaluate existing approaches on DailyDialog dataset and hope it benefit the research field of dialog systems.
 
-**Basic Statistics
+**Basic Statistics**
 
 Th developed DailyDialog datasets contain 13,118 multi-turn dialogues. We also count the average speaker turns and tokens to give a brief view of the dataset. The resulting statistics are given in the table below. From the statistics we can see, the speaker turns are roughly 8, and the average tokens per utterance is about 15. 
 
@@ -25,7 +25,7 @@ Th developed DailyDialog datasets contain 13,118 multi-turn dialogues. We also c
 
 **Example**
 
-![](/images/dailydialog_example_small.jpg)
+![](/images/dailydialog_example_smaller.jpg)
 
 The words in Italic are speaker B's own ideas that are new for the other speaker A. The underlined words in purple explicitly indicate the emotions. In the fourth speaker turn, speaker B first expresses his/her feeling on what he/she has heared from speaker A, which reveals his/her understanding. Then, speaker B suggests by saying "Just breathe deeply when you feel yourself getting upset". Following the direct response towards A, B's suggestion is original yet context-dependent. It shows that B builds up a connection link by responding to forgoing context and proposing new suggestions. 
 
@@ -41,12 +41,12 @@ The words in Italic are speaker B's own ideas that are new for the other speaker
 
 - Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. IJCNLP 2017.
 
-> @InProceedings{li2017dailydialog,
->  author    = {Li, Yanran  and  Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},
->  title     = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},
->  booktitle = {Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)},
->  year      = {2017}
-> }
+> @InProceedings{li2017dailydialog,  
+>  author    = {Li, Yanran  and  Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},  
+>  title     = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},  
+>  booktitle = {Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)},  
+>  year      = {2017}  
+> }  
 
 **Copyright**
 
