@@ -56,7 +56,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Hong_Kong
 future:      true
-pygments:    true
+rouge:       true
 markdown:    kramdown
 
 # Amount of posts to show on home page
