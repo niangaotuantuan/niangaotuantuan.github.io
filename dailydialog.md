@@ -11,6 +11,8 @@ image:
 
 We develop a high-quality multi-turn dialog dataset, **DailyDialog**, which is intriguing in several aspects. The language is human-written and less noisy. The dialogues in the dataset reflect our daily communication way and cover various topics about our daily life. We also manually label the developed dataset with communication intention and emotion information. Then, we evaluate existing approaches on DailyDialog dataset and hope it benefit the research field of dialog systems.
 
+*[New!] The dataset file (.zip) has been updated on Nov 1, 2017 to fix a segmentation bug in train.zip. Thank Sanghoon from KAIST to report this bug!*
+
 **Basic Statistics**
 
 Th developed DailyDialog datasets contain 13,118 multi-turn dialogues. We also count the average speaker turns and tokens to give a brief view of the dataset. The resulting statistics are given in the table below. From the statistics we can see, the speaker turns are roughly 8, and the average tokens per utterance is about 15. 
@@ -34,6 +36,14 @@ The words in Italic are speaker B's own ideas that are new for the other speaker
 **Download**
 
 - For downloading, please follow the copyright declaration and click: [DailyDialog.zip](/files/ijcnlp_dailydialog.zip)
+
+- Latest update on Nov 1, 2017.
+
+**Usage and Parser**
+
+- Thank Sanghoon Kang from KAIST who provides a code to parse our dataset, and shares it with us: [https://github.com/Sanghoon94/DailyDialogue-Parser](https://github.com/Sanghoon94/DailyDialogue-Parser)
+
+
 
 **Citation**
 
