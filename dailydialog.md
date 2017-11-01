@@ -15,7 +15,7 @@ We develop a high-quality multi-turn dialog dataset, **DailyDialog**, which is i
 
 **Basic Statistics**
 
-Th developed DailyDialog datasets contain 13,118 multi-turn dialogues. We also count the average speaker turns and tokens to give a brief view of the dataset. The resulting statistics are given in the table below. From the statistics we can see, the speaker turns are roughly 8, and the average tokens per utterance is about 15. 
+Th developed DailyDialog dataset contains 13,118 multi-turn dialogues. We also count the average speaker turns and tokens to give a brief view of the dataset. The resulting statistics are given in the table below. From the statistics we can see, the speaker turns are roughly 8, and the average tokens per utterance is about 15. 
 
 | ---: | ---: |
 | Total Dialogues | 13,118 |
