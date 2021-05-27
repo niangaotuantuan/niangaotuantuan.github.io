@@ -11,7 +11,17 @@ image:
 
 We develop a high-quality multi-turn dialog dataset, **DailyDialog**, which is intriguing in several aspects. The language is human-written and less noisy. The dialogues in the dataset reflect our daily communication way and cover various topics about our daily life. We also manually label the developed dataset with communication intention and emotion information. Then, we evaluate existing approaches on DailyDialog dataset and hope it benefit the research field of dialog systems.
 
-*[New!] The dataset file (.zip) has been updated on Nov 1, 2017 to fix a segmentation bug in train.zip. Thank Sanghoon from KAIST to report this bug!*
+The dataset file (.zip) has been updated on Nov 1, 2017 to fix a segmentation bug in train.zip. Thank Sanghoon from KAIST to report this bug!
+
+*[New!] (Poria et al., 2020) has created extra annotations on DailyDialog, please check [here](https://github.com/declare-lab/RECCON) for detailed information.*
+*[New!] The license of DailyDialog has been updated!*
+
+
+**License**
+DailyDialog dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+
+If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Any third party annotation is welcome. Note the dataset may not be adopted for commercial use.
+
 
 **Basic Statistics**
 
